@@ -112,6 +112,10 @@ header h1 {
   text-decoration: none;
 }
 
+#menu .list {
+  display: none;
+}
+
 /* ~~~~~~~~~~ Content Styling ~~~~~~~~~~ */
 
 #content {

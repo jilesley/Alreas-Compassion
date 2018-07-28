@@ -1,9 +1,9 @@
 $(document).ready(function() {
-  let $quest = $("#quest");
-  let $characters = $("#characters");
-  let $locations = $("#locations");
-  let $resources = $("#resources");
-  let $content = $("#content")
+  let $quest = $("#quest .list");
+  let $characters = $("#characters .list");
+  let $locations = $("#locations .list");
+  let $resources = $("#resources .list");
+  let $content = $("#content");
 
   for (var i = 0; i < quest.length; i++) {
     let $log = $("<h3>" + quest[i].name + "</h3>");
@@ -35,4 +35,13 @@ $(document).ready(function() {
     let $resource = $("<h3><a href='" + resources[i].link + "' target='_blank'>" + resources[i].name + "</a></h3>");
     $resources.append($resource);
   }
+
+  $("#menu h2").click(function() {
+    $list = $(this).parent().children(".list");
+    if ($list.css("display") === "none") {
+      $list.slideDown(400);
+    } else {
+      $list.slideUp(400);
+    }
+  });
 })
