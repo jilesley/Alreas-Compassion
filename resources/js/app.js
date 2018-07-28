@@ -62,16 +62,18 @@ $(document).ready(function() {
     $character.click(function() {
       $content.html($(this).data("summary") + $(this).data("content"));
     });
-    $character.mousemove(function(event) {
-      xCoord = event.pageX;
-      yCoord = event.pageY;
-      $hover.html($(this).data("summary"));
-      $hover.show();
-      $hover.offset({ top: yCoord, left: xCoord + 20 });
-    });
-    $character.mouseleave(function() {
-      $hover.hide()
-    });
+    if ( $( document ).width() > 1000) {
+      $character.mousemove(function(event) {
+        xCoord = event.pageX;
+        yCoord = event.pageY;
+        $hover.html($(this).data("summary"));
+        $hover.show();
+        $hover.offset({ top: yCoord, left: xCoord + 20 });
+      });
+      $character.mouseleave(function() {
+        $hover.hide()
+      });
+    }
   };
   // Player Characters
   for (var i = 0; i < characters.player.length; i++) {
