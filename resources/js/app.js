@@ -9,7 +9,8 @@ $(document).ready(function() {
   const resetContent = function () {
     $content.html("<h2>Welcome to Alrea's Compassion!</h2>" +
                   "<p>Alrea's Compassion is a 5th edition campaign run by our glorious GM - Calum Gaffney.</p>" +
-                  ""
+                  "<h2>World Map</h2>" +
+                  "<img src='resources/images/map.jpg' />"
     );
   };
 
@@ -22,12 +23,14 @@ $(document).ready(function() {
   //Quest logs
   for (var i = 0; i < quest.length; i++) {
     let $log = $("<h3>" + quest[i].name + "</h3>");
+    $log.data("name", quest[i].name);
     $log.data("content", quest[i].content);
     $log.data("date", quest[i].date);
     $log.data("party", quest[i].party);
     $log.data("location", quest[i].location);
     $log.click(function() {
-      $content.html("<h4><strong>Session Date:</strong> " + $(this).data("date") + "</h4>" +
+      $content.html("<h1>" + $log.data("name") + "</h1>" +
+                    "<h4><strong>Session Date:</strong> " + $(this).data("date") + "</h4>" +
                     "<h4><strong>Party Members:</strong> <span class='character'>" +
                       $(this).data("party").join("</span>, <span class='character'>") +
                     "</span></h4>" +
