@@ -42,6 +42,10 @@ h3 {
   padding-top: .25rem;
 }
 
+p {
+  margin-top: .5rem;
+}
+
 /* ~~~~~~~~~~ scrollbar Styling (Chrome, Safari and Opera only) ~~~~~~~~~~ */
 
 /* width */
