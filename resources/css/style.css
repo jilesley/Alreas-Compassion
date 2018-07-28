@@ -43,7 +43,7 @@ h3 {
 }
 
 p {
-  margin-top: .5rem;
+  padding-top: .5rem;
 }
 
 /* ~~~~~~~~~~ scrollbar Styling (Chrome, Safari and Opera only) ~~~~~~~~~~ */
@@ -79,6 +79,7 @@ header {
 
 header h1 {
   text-align: center;
+  cursor: pointer;
 }
 
 /* ~~~~~~~~~~ Container Styling ~~~~~~~~~~ */
@@ -147,6 +148,18 @@ header h1 {
   flex: 1 1 75%;
 }
 
+/* ~~~~~~~~~~ Hover Styling ~~~~~~~~~~ */
+
+#hover {
+  color: #141414;
+  background-color: #e8e5dc;
+  padding: .5rem;
+  position: absolute;
+  display: none;
+  border-radius: 5px;
+  box-shadow: 5px 10px;
+}
+
 /* ~~~~~~~~~~ Summary Styling ~~~~~~~~~~ */
 
 .summary .details {
@@ -154,6 +167,7 @@ header h1 {
 }
 .summary .title {
   font-size: 2rem;
+  padding: 0;
 }
 .summary .details img {
   margin-right: .5rem;

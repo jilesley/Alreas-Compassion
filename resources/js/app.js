@@ -4,6 +4,18 @@ $(document).ready(function() {
   let $locations = $("#locations .list");
   let $resources = $("#resources .list");
   let $content = $("#content");
+  let $hover = $("#hover")
+
+  const resetContent = function () {
+    $content.html("<h2>Welcome to Alrea's Compassion!</h2>" +
+                  "<p>Alrea's Compassion is a 5th edition campaign run by our glorious GM - Calum Gaffney.</p>" +
+                  ""
+    );
+  };
+
+  resetContent();
+
+  $("header h1").click(function() {resetContent()});
 
   // Create Menu lists with data attached
 
@@ -50,6 +62,16 @@ $(document).ready(function() {
     $character.data("content", characters.player[i].content);
     $character.click(function() {
       $content.html($(this).data("summary") + $(this).data("content"));
+    })
+    $character.mousemove(function(event) {
+      xCoord = event.pageX;
+      yCoord = event.pageY;
+      $hover.html($(this).data("summary"));
+      $hover.show();
+      $hover.offset({ top: yCoord, left: xCoord + 20 });
+    });
+    $character.mouseleave(function() {
+      $hover.hide()
     })
     $charPlayer.append($character);
   }
