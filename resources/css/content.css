@@ -1,0 +1,52 @@
+#content {
+  line-height:1.15;
+}
+#content ul {
+  list-style-type: disc;
+}
+#content .c4 {
+  margin-left:36pt;
+  padding-top:0pt;
+  padding-left:0pt;
+  padding-bottom:0pt;
+}
+#content .c1 {
+  font-style:italic;
+}
+#content .c7 {
+  margin-left:36pt;
+  padding-top:10pt;
+  padding-bottom:0pt;
+  line-height:1.5;
+}
+#content .c0 {
+  font-style:normal;
+}
+#content .c2 {
+  padding-top:10pt;
+  padding-bottom:0pt;
+}
+#content .c5 {
+  padding-top:0pt;
+  padding-bottom:0pt;
+}
+#content .c8 {
+  max-width:451.4pt;
+  padding:72pt 72pt 72pt 72pt;
+}
+#content .c3 {
+  padding:0;
+  margin:0;
+}
+#content .c6 {
+  text-indent:36pt;
+}
+#content .c9 {
+  font-style:italic;
+}
+#content p {
+  margin:0;
+}
+#content h4 {
+  font-size: 1.25rem;
+}

@@ -1,0 +1,123 @@
+/* ~~~~~~~~~~ Temporary Styling ~~~~~~~~~~ */
+/*
+div {
+  border-color: red;
+  border-width: thin;
+  border-style: solid;
+}
+
+
+/* ~~~~~~~~~~ General Styling ~~~~~~~~~~ */
+
+html, body {
+  height: 100%;
+}
+
+body {
+  color: #e8e5dc;
+  background-color: #141414;
+  font-size: 18px;
+  font-family: serif;
+  display: flex;
+  flex-direction: column;
+}
+
+h1, h2, h3 {
+  font-weight: bold;
+  margin: 0;
+}
+
+h1 {
+  font-size: 2rem;
+  align-self: center;
+}
+
+h2 {
+  font-size: 1.75rem;
+  padding-top: .5rem;
+}
+
+h3 {
+  font-size: 1.25rem;
+  padding-top: .25rem;
+  margin-left: .5rem;
+}
+
+/* ~~~~~~~~~~ scrollbar Styling (Chrome, Safari and Opera only) ~~~~~~~~~~ */
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #2b2b2b;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #5a5a5a;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #424242;
+}
+
+/* ~~~~~~~~~~ Header Styling ~~~~~~~~~~ */
+
+header {
+  box-sizing: border-box;
+  height: 10%;
+  display: flex;
+  justify-content: center;
+}
+
+header h1 {
+  text-align: center;
+}
+
+/* ~~~~~~~~~~ Container Styling ~~~~~~~~~~ */
+
+#container {
+  height: 90%;
+  margin-bottom: 12px;
+}
+
+#containerRow {
+  height: 100%;
+}
+
+/* ~~~~~~~~~~ Menu Styling ~~~~~~~~~~ */
+
+#menu {
+  background-color: #424242;
+  border-radius: 12px;
+  margin-left: 12px;
+  padding-bottom: 2rem;
+  overflow-y: scroll;
+}
+
+#menu h3, #menu h2 {
+  width: max-content;
+  cursor: pointer;
+}
+
+#menu a {
+  color: inherit;
+}
+
+#menu a:hover {
+  text-decoration: none;
+}
+
+/* ~~~~~~~~~~ Content Styling ~~~~~~~~~~ */
+
+#content {
+  color: #141414;
+  background-color: #a1a1a1;
+  padding: 1rem 1rem;
+  margin-right: 12px;
+  overflow-y: scroll;
+}
