@@ -18,6 +18,12 @@ $(document).ready(function() {
 
   $("header h1").click(function() {resetContent()});
 
+  let killCount = 0;
+  characters.player.forEach(function(player) {
+    killCount += player.kills;
+  });
+  $("#killCount").append("<span>" + killCount + "</span>");
+
   // Create Menu lists with data attached
 
   //Quest logs
@@ -58,6 +64,7 @@ $(document).ready(function() {
                             characters.player[i].race + " | " +
                             characters.player[i].class +
                           "</h4>" +
+                          "<h4><strong>Kill Count:</strong> " + characters.player[i].kills + "</h4>" +
                         "</div>" +
                       "</div>" +
                     "</div>"

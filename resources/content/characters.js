@@ -6,6 +6,7 @@ const characters = {
       race: "Human",
       class: "Ranger",
       level: 2,
+      kills: 4,
       img: "https://media-waterdeep.cursecdn.com/avatars/thumbnails/17/415/60/60/636377885173419481.jpeg",
       content: "<h2>Content to be added</h2>"
     },
@@ -15,6 +16,7 @@ const characters = {
       race: "Dwarf",
       class: "Bard",
       level: 2,
+      kills: 0,
       img: "https://media-waterdeep.cursecdn.com/avatars/thumbnails/10/71/60/60/636339380148524382.png",
       content: "<h2>Content to be added</h2>"
     },
@@ -24,6 +26,7 @@ const characters = {
       race: "Human",
       class: "Monk",
       level: 2,
+      kills: 2,
       img: "https://media-waterdeep.cursecdn.com/avatars/thumbnails/17/424/60/60/636377886749285983.jpeg",
       content: "<h2>Content to be added</h2>"
     },
@@ -33,6 +36,7 @@ const characters = {
       race: "Dragonborn",
       class: "Paldin",
       level: 2,
+      kills: 0,
       img: "https://media-waterdeep.cursecdn.com/avatars/thumbnails/17/407/60/60/636377883694580108.jpeg",
       content: "<h2>Content to be added</h2>"
     },
@@ -42,6 +46,7 @@ const characters = {
       race: "Half-Elf",
       class: "Sorcerer",
       level: 2,
+      kills: 4,
       img: "https://media-waterdeep.cursecdn.com/avatars/thumbnails/17/932/60/60/636378855806248172.png",
       content: "<h2>Content to be added</h2>"
     },
@@ -51,6 +56,7 @@ const characters = {
       race: "Goliath",
       class: "Blood Hunter",
       level: 2,
+      kills: 5,
       img: "https://media-waterdeep.cursecdn.com/avatars/thumbnails/17/452/60/60/636377890039744108.jpeg",
       content: "<h2>Content to be added</h2>"
     }
