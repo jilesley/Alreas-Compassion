@@ -2,6 +2,7 @@ $(document).ready(function() {
   let $quest = $("#quest .list");
   let $characters = $("#characters .list");
   let $locations = $("#locations .list");
+  let $general = $("#general .list");
   let $resources = $("#resources .list");
   let $content = $("#content");
   let $hover = $("#hover");
@@ -11,7 +12,7 @@ $(document).ready(function() {
 
   // Set default and give title reset button
   const resetContent = function () {
-    $content.html("<h2>Welcome to Alrea's Compassion!</h2>" +
+    $content.html("<h1>Welcome to Alrea's Compassion!</h1>" +
                   "<p>Alrea's Compassion is a 5th edition campaign run by our glorious GM - Calum Gaffney.</p>" +
                   "<h2>World Map</h2>" +
                   "<img src='resources/images/map.jpg' />"
@@ -32,24 +33,41 @@ $(document).ready(function() {
 
   // Create Menu lists with data attached
 
+  // Summary hover function
+  const summaryInteract = function($summary) {
+    $summary.click(function() {
+      $content.html($(this).data("summary") + $(this).data("content"));
+    });
+    if ( $( document ).width() > 1000) {
+      $summary.mousemove(function(event) {
+        xCoord = event.pageX;
+        yCoord = event.pageY;
+        $hover.html($(this).data("summary"));
+        $hover.show();
+        $hover.offset({ top: yCoord, left: xCoord + 20 });
+      });
+      $summary.mouseleave(function() {
+        $hover.hide()
+      });
+    }
+  };
+
+
   //Quest logs
   for (var i = 0; i < quest.length; i++) {
     let $log = $("<h3>" + quest[i].name + "</h3>");
-    $log.data("name", quest[i].name);
     $log.data("content", quest[i].content);
-    $log.data("date", quest[i].date);
-    $log.data("party", quest[i].party);
-    $log.data("location", quest[i].location);
-    $log.click(function() {
-      $content.html("<h1>" + $log.data("name") + "</h1>" +
-                    "<h4><strong>Session Date:</strong> " + $(this).data("date") + "</h4>" +
-                    "<h4><strong>Party Members:</strong> <span class='character'>" +
-                      $(this).data("party").join("</span>, <span class='character'>") +
-                    "</span></h4>" +
-                    "<h4><strong>Starting Location:</strong> " + $(this).data("location") + "</h4>" +
-                    $(this).data("content")
-      );
-    });
+    $log.data("summary",
+              "<div class='summary'>" +
+                "<h1>" + quest[i].name + "</h1>" +
+                "<h4><strong>Session Date:</strong> " + quest[i].date + "</h4>" +
+                "<h4><strong>Party Members:</strong> <span class='character'>" +
+                  quest[i].party.join("</span>, <span class='character'>") +
+                "</span></h4>" +
+                "<h4><strong>Starting Location:</strong> " + quest[i].location + "</h4>" +
+              "</div>"
+    );
+    summaryInteract($log);
     $quest.append($log);
   }
 
@@ -58,29 +76,12 @@ $(document).ready(function() {
   let $charPlayer = $("#charPlayer");
   let $charNPC = $("#charNPC");
 
-  const charInteract = function($character) {
-    $character.click(function() {
-      $content.html($(this).data("summary") + $(this).data("content"));
-    });
-    if ( $( document ).width() > 1000) {
-      $character.mousemove(function(event) {
-        xCoord = event.pageX;
-        yCoord = event.pageY;
-        $hover.html($(this).data("summary"));
-        $hover.show();
-        $hover.offset({ top: yCoord, left: xCoord + 20 });
-      });
-      $character.mouseleave(function() {
-        $hover.hide()
-      });
-    }
-  };
   // Player Characters
   for (var i = 0; i < characters.player.length; i++) {
     let $character = $("<h3>" + characters.player[i].name + "</h3>");
     $character.data("summary",
                     "<div class='summary'>" +
-                      "<h2 class='title'>" + characters.player[i].name + "</h2>" +
+                      "<h1 class='title'>" + characters.player[i].name + "</h1>" +
                         "<div class='details'>" +
                         "<img src='" + characters.player[i].img + "' />" +
                         "<div>" +
@@ -96,7 +97,7 @@ $(document).ready(function() {
                     "</div>"
     );
     $character.data("content", characters.player[i].content);
-    charInteract($character);
+    summaryInteract($character);
     $charPlayer.append($character);
   }
   // Non Player Characters
@@ -104,7 +105,7 @@ $(document).ready(function() {
     let $character = $("<h3>" + characters.npc[i].name + "</h3>");
     $character.data("summary",
                     "<div class='summary'>" +
-                      "<h2 class='title'>" + characters.npc[i].name + "</h2>" +
+                      "<h1 class='title'>" + characters.npc[i].name + "</h1>" +
                       "<div>" +
                         "<h4><strong>Race:</strong> " + characters.npc[i].race + "</h4>" +
                         "<h4><strong>Profession:</strong> " + characters.npc[i].profession + "</h4>" +
@@ -112,7 +113,7 @@ $(document).ready(function() {
                     "</div>"
     );
     $character.data("content", characters.npc[i].content);
-    charInteract($character);
+    summaryInteract($character);
     $charNPC.append($character);
   }
 
@@ -123,11 +124,25 @@ $(document).ready(function() {
     $location.data("name", locations[i].name);
     $location.data("content", locations[i].content);
     $location.click(function() {
-      $content.html("<h2>" + $(this).data("name") + "</h2>" +
+      $content.html("<h1>" + $(this).data("name") + "</h1>" +
                     $(this).data("content")
       );
     });
     $locations.append($location);
+  }
+
+
+  //General Information
+  for (var i = 0; i < general.length; i++) {
+    let $info = $("<h3>" + general[i].name + "</h3>");
+    $info.data("name", general[i].name);
+    $info.data("content", general[i].content);
+    $info.click(function() {
+      $content.html("<h1>" + $(this).data("name") + "</h1>" +
+                    $(this).data("content")
+      );
+    });
+    $general.append($info);
   }
 
 

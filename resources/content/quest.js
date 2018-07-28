@@ -4,7 +4,7 @@ const quest = [
     date: "",
     party: [],
     location: "",
-    content: "<h2>This is a test</h2>"
+    content: "<h2>Content to be added</h2>"
   },
   {
     name: "Session 1",
