@@ -82,10 +82,7 @@ header h1 {
 #container {
   height: 90%;
   margin-bottom: 12px;
-}
-
-#containerRow {
-  height: 100%;
+  display: flex;
 }
 
 /* ~~~~~~~~~~ Menu Styling ~~~~~~~~~~ */
@@ -94,8 +91,9 @@ header h1 {
   background-color: #424242;
   border-radius: 12px;
   margin-left: 12px;
-  padding-bottom: 2rem;
+  padding: 1rem 0 2rem 1rem;
   overflow-y: scroll;
+  flex: 0 1 25%
 }
 
 #menu h3, #menu h2 {
@@ -105,10 +103,6 @@ header h1 {
 
 #menu a {
   color: inherit;
-}
-
-#menu a:hover {
-  text-decoration: none;
 }
 
 #menu .list {
@@ -146,6 +140,7 @@ header h1 {
   padding: 1rem 1rem;
   margin-right: 12px;
   overflow-y: scroll;
+  flex: 1 1 75%;
 }
 
 /* ~~~~~~~~~~ Summary Styling ~~~~~~~~~~ */
