@@ -120,6 +120,13 @@ $(document).ready(function() {
   //Locations
   for (var i = 0; i < locations.length; i++) {
     let $location = $("<h3>" + locations[i].name + "</h3>");
+    $location.data("name", locations[i].name);
+    $location.data("content", locations[i].content);
+    $location.click(function() {
+      $content.html("<h2>" + $(this).data("name") + "</h2>" +
+                    $(this).data("content")
+      );
+    });
     $locations.append($location);
   }
 

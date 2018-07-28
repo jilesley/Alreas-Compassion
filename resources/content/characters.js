@@ -8,7 +8,7 @@ const characters = {
       level: 2,
       kills: 4,
       img: "https://media-waterdeep.cursecdn.com/avatars/thumbnails/17/415/60/60/636377885173419481.jpeg",
-      content: "<h2>Content to be added</h2>"
+      content: `<h2>Content to be added</h2>`
     },
     {
       name: "Belrim Bennar",
@@ -18,7 +18,7 @@ const characters = {
       level: 2,
       kills: 0,
       img: "https://media-waterdeep.cursecdn.com/avatars/thumbnails/10/71/60/60/636339380148524382.png",
-      content: "<h2>Content to be added</h2>"
+      content: `<h2>Content to be added</h2>`
     },
     {
       name: "Hieronymus Botch",
@@ -28,7 +28,7 @@ const characters = {
       level: 2,
       kills: 2,
       img: "https://media-waterdeep.cursecdn.com/avatars/thumbnails/17/424/60/60/636377886749285983.jpeg",
-      content: "<h2>Content to be added</h2>"
+      content: `<h2>Content to be added</h2>`
     },
     {
       name: "Orthon Anatole",
@@ -38,7 +38,7 @@ const characters = {
       level: 2,
       kills: 0,
       img: "https://media-waterdeep.cursecdn.com/avatars/thumbnails/17/407/60/60/636377883694580108.jpeg",
-      content: "<h2>Content to be added</h2>"
+      content: `<h2>Content to be added</h2>`
     },
     {
       name: "Tieron Malathrar",
@@ -48,7 +48,7 @@ const characters = {
       level: 2,
       kills: 4,
       img: "https://media-waterdeep.cursecdn.com/avatars/thumbnails/17/932/60/60/636378855806248172.png",
-      content: "<h2>Content to be added</h2>"
+      content: `<h2>Content to be added</h2>`
     },
     {
       name: "Varic",
@@ -58,7 +58,7 @@ const characters = {
       level: 2,
       kills: 5,
       img: "https://media-waterdeep.cursecdn.com/avatars/thumbnails/17/452/60/60/636377890039744108.jpeg",
-      content: "<h2>Content to be added</h2>"
+      content: `<h2>Content to be added</h2>`
     }
   ],
   npc: [
@@ -66,19 +66,19 @@ const characters = {
       name: "Corollas",
       race: "Human",
       profession: "Museum Owner",
-      content: "<h2>Content to be added</h2>"
+      content: `<h2>Content to be added</h2>`
     },
     {
       name: "Nellis",
       race: "Unknown",
       profession: "Shady Dude extradonaire",
-      content: "<h2>Content to be added</h2>"
+      content: `<h2>Content to be added</h2>`
     },
     {
       name: "Perin",
       race: "Dwarf",
       profession: "High class Hiesterer",
-      content: "<h2>Content to be added</h2>"
+      content: `<h2>Content to be added</h2>`
     }
   ]
 };

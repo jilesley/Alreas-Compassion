@@ -1,170 +1,170 @@
 const locations = [
   {
     name: "Albion",
-    content: ""
+    content: `<h2>Content to be added</h2>`
   },
   {
     name: "Alton",
-    content: ""
+    content: `<h2>Content to be added</h2>`
   },
   {
     name: "Ansachz",
-    content: ""
+    content: `<h2>Content to be added</h2>`
   },
   {
     name: "Anterbott",
-    content: ""
+    content: `<h2>Content to be added</h2>`
   },
   {
     name: "Arris",
-    content: ""
+    content: `<h2>Content to be added</h2>`
   },
   {
     name: "Barns",
-    content: ""
+    content: `<h2>Content to be added</h2>`
   },
   {
     name: "Bjer",
-    content: ""
+    content: `<h2>Content to be added</h2>`
   },
   {
     name: "Bram",
-    content: ""
+    content: `<h2>Content to be added</h2>`
   },
   {
     name: "Brandig",
-    content: ""
+    content: `<h2>Content to be added</h2>`
   },
   {
     name: "Bucliff",
-    content: ""
+    content: `<h2>Content to be added</h2>`
   },
   {
     name: "Certane",
-    content: ""
+    content: `<h2>Content to be added</h2>`
   },
   {
     name: "Emery",
-    content: ""
+    content: `<h2>Content to be added</h2>`
   },
   {
     name: "Ferolyn",
-    content: ""
+    content: `<h2>Content to be added</h2>`
   },
   {
     name: "Haybetree",
-    content: ""
+    content: `<h2>Content to be added</h2>`
   },
   {
     name: "Hennig",
-    content: ""
+    content: `<h2>Content to be added</h2>`
   },
   {
     name: "Hitchen",
-    content: ""
+    content: `<h2>Content to be added</h2>`
   },
   {
     name: "Hotsapech",
-    content: ""
+    content: `<h2>Content to be added</h2>`
   },
   {
     name: "Imnett",
-    content: ""
+    content: `<h2>Content to be added</h2>`
   },
   {
     name: "Inphis",
-    content: ""
+    content: `<h2>Content to be added</h2>`
   },
   {
     name: "Ironbrill",
-    content: ""
+    content: `<h2>Content to be added</h2>`
   },
   {
     name: "Kepri",
-    content: ""
+    content: `<h2>Content to be added</h2>`
   },
   {
     name: "Marisberg",
-    content: ""
+    content: `<h2>Content to be added</h2>`
   },
   {
     name: "Middock",
-    content: ""
+    content: `<h2>Content to be added</h2>`
   },
   {
     name: "Mondalton",
-    content: ""
+    content: `<h2>Content to be added</h2>`
   },
   {
     name: "Montenay",
-    content: ""
+    content: `<h2>Content to be added</h2>`
   },
   {
     name: "Newton",
-    content: ""
+    content: `<h2>Content to be added</h2>`
   },
   {
     name: "Noss",
-    content: ""
+    content: `<h2>Content to be added</h2>`
   },
   {
     name: "Parnassium",
-    content: ""
+    content: `<h2>Content to be added</h2>`
   },
   {
     name: "Red Hill",
-    content: ""
+    content: `<h2>Content to be added</h2>`
   },
   {
     name: "Rochi",
-    content: ""
+    content: `<h2>Content to be added</h2>`
   },
   {
     name: "Rodenny",
-    content: ""
+    content: `<h2>Content to be added</h2>`
   },
   {
     name: "Scappon",
-    content: ""
+    content: `<h2>Content to be added</h2>`
   },
   {
     name: "Senspor",
-    content: ""
+    content: `<h2>Content to be added</h2>`
   },
   {
     name: "Socanta",
-    content: ""
+    content: `<h2>Content to be added</h2>`
   },
   {
     name: "Southgate",
-    content: ""
+    content: `<h2>Content to be added</h2>`
   },
   {
     name: "Tash",
-    content: ""
+    content: `<h2>Content to be added</h2>`
   },
   {
     name: "Tiffis",
-    content: ""
+    content: `<h2>Content to be added</h2>`
   },
   {
     name: "Tollina",
-    content: ""
+    content: `<h2>Content to be added</h2>`
   },
   {
     name: "Vendri",
-    content: ""
+    content: `<h2>Content to be added</h2>`
   },
   {
     name: "Wentz",
-    content: ""
+    content: `<h2>Content to be added</h2>`
   },
   {
     name: "White March",
-    content: ""
+    content: `<h2>Content to be added</h2>`
   },
   {
     name: "Yarros",
-    content: ""
+    content: `<h2>Content to be added</h2>`
   }
 ]
