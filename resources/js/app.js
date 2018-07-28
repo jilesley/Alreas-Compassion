@@ -6,6 +6,8 @@ $(document).ready(function() {
   let $content = $("#content");
   let $hover = $("#hover")
 
+
+  // Set default and give title reset button
   const resetContent = function () {
     $content.html("<h2>Welcome to Alrea's Compassion!</h2>" +
                   "<p>Alrea's Compassion is a 5th edition campaign run by our glorious GM - Calum Gaffney.</p>" +
@@ -18,11 +20,13 @@ $(document).ready(function() {
 
   $("header h1").click(function() {resetContent()});
 
+  // Kill counter stuff
   let killCount = 0;
   characters.player.forEach(function(player) {
     killCount += player.kills;
   });
   $("#killCount").append("<span>" + killCount + "</span>");
+
 
   // Create Menu lists with data attached
 
@@ -47,9 +51,27 @@ $(document).ready(function() {
     $quest.append($log);
   }
 
-  //Characters
+
+  // Characters
   let $charPlayer = $("#charPlayer");
   let $charNPC = $("#charNPC");
+
+  const charInteract = function($character) {
+    $character.click(function() {
+      $content.html($(this).data("summary") + $(this).data("content"));
+    });
+    $character.mousemove(function(event) {
+      xCoord = event.pageX;
+      yCoord = event.pageY;
+      $hover.html($(this).data("summary"));
+      $hover.show();
+      $hover.offset({ top: yCoord, left: xCoord + 20 });
+    });
+    $character.mouseleave(function() {
+      $hover.hide()
+    });
+  };
+  // Player Characters
   for (var i = 0; i < characters.player.length; i++) {
     let $character = $("<h3>" + characters.player[i].name + "</h3>");
     $character.data("summary",
@@ -70,25 +92,26 @@ $(document).ready(function() {
                     "</div>"
     );
     $character.data("content", characters.player[i].content);
-    $character.click(function() {
-      $content.html($(this).data("summary") + $(this).data("content"));
-    })
-    $character.mousemove(function(event) {
-      xCoord = event.pageX;
-      yCoord = event.pageY;
-      $hover.html($(this).data("summary"));
-      $hover.show();
-      $hover.offset({ top: yCoord, left: xCoord + 20 });
-    });
-    $character.mouseleave(function() {
-      $hover.hide()
-    })
+    charInteract($character);
     $charPlayer.append($character);
   }
+  // Non Player Characters
   for (var i = 0; i < characters.npc.length; i++) {
     let $character = $("<h3>" + characters.npc[i].name + "</h3>");
+    $character.data("summary",
+                    "<div class='summary'>" +
+                      "<h2 class='title'>" + characters.npc[i].name + "</h2>" +
+                      "<div>" +
+                        "<h4><strong>Race:</strong> " + characters.npc[i].race + "</h4>" +
+                        "<h4><strong>Profession:</strong> " + characters.npc[i].profession + "</h4>" +
+                      "</div>" +
+                    "</div>"
+    );
+    $character.data("content", characters.npc[i].content);
+    charInteract($character);
     $charNPC.append($character);
   }
+
 
   //Locations
   for (var i = 0; i < locations.length; i++) {
@@ -96,14 +119,15 @@ $(document).ready(function() {
     $locations.append($location);
   }
 
+
   //Resources
   for (var i = 0; i < resources.length; i++) {
     let $resource = $("<h3><a href='" + resources[i].link + "' target='_blank'>" + resources[i].name + "</a></h3>");
     $resources.append($resource);
   }
 
-  // Give Menu catagories dropdown functionality
 
+  // Give Menu catagories dropdown functionality
   $("#menu h2").click(function() {
     $list = $(this).parent().children(".list");
     if ($list.css("display") === "none") {

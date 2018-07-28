@@ -63,9 +63,22 @@ const characters = {
   ],
   npc: [
     {
-      name: "",
-      race: "",
-      content: ""
+      name: "Corollas",
+      race: "Human",
+      profession: "Museum Owner",
+      content: "<h2>Content to be added</h2>"
+    },
+    {
+      name: "Nellis",
+      race: "Unknown",
+      profession: "Shady Dude extradonaire",
+      content: "<h2>Content to be added</h2>"
+    },
+    {
+      name: "Perin",
+      race: "Dwarf",
+      profession: "High class Hiesterer",
+      content: "<h2>Content to be added</h2>"
     }
   ]
 };
