@@ -4,7 +4,9 @@ $(document).ready(function() {
   let $locations = $("#locations .list");
   let $resources = $("#resources .list");
   let $content = $("#content");
-  let $hover = $("#hover")
+  let $hover = $("#hover");
+  let $menu = $("#menu");
+  let $menuButton = $("header img");
 
 
   // Set default and give title reset button
@@ -125,6 +127,15 @@ $(document).ready(function() {
     let $resource = $("<h3><a href='" + resources[i].link + "' target='_blank'>" + resources[i].name + "</a></h3>");
     $resources.append($resource);
   }
+
+
+  $menuButton.click(function() {
+    if ($menu.css("display") === "none") {
+      $menu.show("slide");
+    } else {
+      $menu.hide("slide");
+    }
+  });
 
 
   // Give Menu catagories dropdown functionality

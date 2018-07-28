@@ -1,0 +1,33 @@
+@media only screen and (max-width: 1000px) {
+  #menu {
+    display: none;
+    box-sizing: border-box;
+    position: absolute;
+    height: 90%;
+    width: 300px;
+    right: 0;
+    margin: 0;
+  }
+
+  header h1 {
+    font-size: 2.5rem;
+  }
+
+  header h2 {
+    font-size: 1.5rem;
+  }
+
+  header img {
+    display: block;
+  }
+
+  #content {
+    border-radius: 12px;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  header h2 {
+    display: none;
+  }
+}
