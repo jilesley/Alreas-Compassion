@@ -16,7 +16,9 @@ $(document).ready(function() {
     $log.data("location", quest[i].location);
     $log.click(function() {
       $content.html("<h4><strong>Session Date:</strong> " + $(this).data("date") + "</h4>" +
-                    "<h4><strong>Party Members:</strong> " + $(this).data("party").join(", ") + "</h4>" +
+                    "<h4><strong>Party Members:</strong> <span class='character'>" +
+                      $(this).data("party").join("</span>, <span class='character'>") +
+                    "</span></h4>" +
                     "<h4><strong>Starting Location:</strong> " + $(this).data("location") + "</h4>" +
                     $(this).data("content")
       );
