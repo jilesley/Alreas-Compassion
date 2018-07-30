@@ -1,53 +1,34 @@
 #content {
-  line-height:1.15;
+  line-height: 1.15;
 }
-#content ul {
-  list-style-type: disc;
-}
-#content .c4 {
-  margin-left:36pt;
-}
-#content .c1 {
-  font-style:italic;
-}
-#content .c7 {
-  margin-left:36pt;
-  padding-top:10pt;
-  padding-bottom:0pt;
-  line-height:1.5;
-}
-#content .c0 {
-  font-style:normal;
-}
-#content .c2 {
-  padding-top:10pt;
-  padding-bottom:0pt;
-}
-#content .c5 {
-  padding-top:0pt;
-  padding-bottom:0pt;
-}
-#content .c8 {
-  max-width:451.4pt;
-  padding:72pt 72pt 72pt 72pt;
-}
-#content .c3 {
-  padding:0;
-  margin:0;
-}
-#content .c6 {
-  text-indent:36pt;
-}
-#content .c9 {
-  font-style:italic;
-}
-#content h4 {
-  font-size: 1.2rem;
-  font-weight: normal;
-}
-#content strong {
-  font-weight: bold;
-}
+
 #content img {
   max-width: 100%;
+}
+
+#content .heading {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+#content .bold {
+  font-weight: bold;
+}
+
+#content .italics {
+  font-style: italic;
+}
+
+#content .underline {
+  text-decoration: underline;
+}
+
+#content ul {
+  list-style: disc;
+  padding-left: 24px;
+}
+
+#content .note {
+  font-style: italic;
+  padding-left: 12px;
 }
