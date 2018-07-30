@@ -1,12 +1,3 @@
-/* ~~~~~~~~~~ Temporary Styling ~~~~~~~~~~ */
-/*
-div {
-  border-color: red;
-  border-width: thin;
-  border-style: solid;
-}
-
-
 /* ~~~~~~~~~~ General Styling ~~~~~~~~~~ */
 
 html, body {
@@ -112,9 +103,9 @@ header img {
 #menu {
   background-color: #424242;
   border-radius: 12px;
-  padding: 1rem 0 2rem 1rem;
+  padding: 1rem 1rem 2rem 1rem;
   overflow-y: scroll;
-  flex: 0 1 300px;
+  flex: 0 1 27.5%;
 }
 
 #menu h3, #menu h2 {
@@ -135,8 +126,17 @@ header img {
   color: #b9b7b0;
 }
 
+#menu .notVisited {
+  cursor: not-allowed;
+  opacity: .3;
+}
+
 #menu h3:hover {
   text-decoration: underline;
+}
+
+#menu .notVisited:hover {
+  text-decoration: none;
 }
 
 #menu h4 {
@@ -161,7 +161,7 @@ header img {
   background-color: #a1a1a1;
   padding: 1rem 1rem;
   overflow-y: scroll;
-  flex: 1 1 75%;
+  flex: 1 1 72.5%;
 }
 
 /* ~~~~~~~~~~ Hover Styling ~~~~~~~~~~ */

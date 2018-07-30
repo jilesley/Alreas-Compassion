@@ -14,8 +14,9 @@ $(document).ready(function() {
   const resetContent = function () {
     $content.html("<h1>Welcome to Alrea's Compassion!</h1>" +
                   "<p>Alrea's Compassion is a 5th edition campaign run by our glorious GM - Calum Gaffney.</p>" +
-                  "<h2>World Map</h2>" +
-                  "<img src='resources/images/map.jpg' />"
+                  "<p>This world is your typical fantasy setting, but with a few twists. In this world, the beings of nature run rampant at night. Almost all villages, towns and cities live within some sort of wall – once a certain population level is reached, the Gods of Nature seems to want to reclaim the land as their own again. Only through at least a palisade can villages hide their presence from the natural forces, and only through large stone walls can towns and cities resist the attention they draw.</p>" +
+                  "<br><p>If you would like to add anything to this site the best way is to add a file to <a class='underline italics' target='_blank' href='https://drive.google.com/drive/folders/1rTwWoohLyyS9a8iVUhIy5YnYK05zM4Ap?usp=sharing'>this Google dive folder</a>.</p>" +
+                  "<p>Though please tell me if you do!</p>"
     );
   };
 
@@ -38,7 +39,7 @@ $(document).ready(function() {
     $summary.click(function() {
       $content.html($(this).data("summary") + $(this).data("content"));
     });
-    if ( $( document ).width() > 1000) {
+    if ( $( document ).width() > 1000 && !navigator.userAgent.match(/iPad/i)) {
       $summary.mousemove(function(event) {
         xCoord = event.pageX;
         yCoord = event.pageY;
@@ -123,11 +124,15 @@ $(document).ready(function() {
     let $location = $("<h3>" + locations[i].name + "</h3>");
     $location.data("name", locations[i].name);
     $location.data("content", locations[i].content);
-    $location.click(function() {
-      $content.html("<h1>" + $(this).data("name") + "</h1>" +
-                    $(this).data("content")
-      );
-    });
+    if (locations[i].visited) {
+      $location.click(function() {
+        $content.html("<h1>" + $(this).data("name") + "</h1>" +
+                      $(this).data("content")
+        );
+      });
+    } else {
+      $location.addClass("notVisited")
+    }
     $locations.append($location);
   }
 

@@ -1,10 +1,10 @@
 const quest = [
   {
     name: "Session 0",
-    date: "",
-    party: [],
-    location: "",
-    content: ``
+    date: "17th July 2018",
+    party: ["Artiti Baumk", "Belrim Bennar", "Hieronymus Botch", "Orthon Anatole", "Tieron Malathrar", "Varic"],
+    location: "The Marisberg Tavern",
+    content: `<h2>Content to be added</h2>`
   },
   {
     name: "Session 1",

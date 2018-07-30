@@ -19,7 +19,7 @@ const textToHTML = (text) => {
     for (var i = 0; i < results.length; i++) {
       switch (results[i]) {
         case "h":
-          setClass += "heading ";
+          modTxt = modTxt.replace(/<(\w+)>/mg, '<$1 class="heading">');
           break;
         case "b":
           setClass += "bold ";
@@ -37,6 +37,9 @@ const textToHTML = (text) => {
         case "n":
           setClass += "note ";
           break;
+        case "p0":
+          modTxt = modTxt.replace(/<(\w+)>/mg, '<$1 class="noPad">');
+          break;
         default:
           console.log(`Case not found for result`);
       }
@@ -53,29 +56,14 @@ const textToHTML = (text) => {
 }
 
 const text =
-`{[h,u]This is a test for the content converter}
-{[l,b]First line
-Second line
-Third line}
-
-Testing {[b,i]inline} text
-
-{[b,i]Testing} front text
-
-Testing back {[b,i]text}
-
-{[b,i]Testing typical text}
-
-{[b,i]Testing mulitple
-paragraph text}`;
-
+`If you would like to add anything to this site the best way is to add a file to <a href='https://drive.google.com/drive/folders/1rTwWoohLyyS9a8iVUhIy5YnYK05zM4Ap?usp=sharing'>this google dive</a>
+Though please tell me if you do!`;
 
 const fs = require("fs");
 
 const fileName = "temp";
 
 let fileContent = textToHTML(text)
-
 
 fs.writeFile(`./${fileName}.html`, fileContent, (err) => {
     if (err) {
