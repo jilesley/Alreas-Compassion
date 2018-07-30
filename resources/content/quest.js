@@ -4,29 +4,14 @@ const quest = [
     date: "",
     party: [],
     location: "",
-    content: `<p><span class='heading underline '>This is a test for the content converter</span></p>
-    <ul class='bold '><li>First line</li>
-    <li>Second line</li>
-    <li>Third line</li></ul>
-
-    <p>Testing <span class='bold italics '>inline</span> text</p>
-
-    <p><span class='bold italics '>Testing</span> front text</p>
-
-    <p>Testing back <span class='bold italics '>text</span></p>
-
-    <p><span class='bold italics '>Testing typical text</span></p>
-
-    <div class='bold italics '><p>Testing mulitple</p>
-    <p>paragraph text</p></div>`
+    content: ``
   },
   {
     name: "Session 1",
     date: "18th July 2018",
     party: ["Artiti Baumk", "Hieronymus Botch", "Orthon Anatole", "Tieron Malathrar", "Varic"],
     location: "A museum in Marisberg",
-    content: `<div class='heading'><p>This is a test heading</p></div>
-    <p>The party started the session outside Corollas’ Museum in Marisberg ready to investigate  the stolen black glass. Upon arriving we learned that Belrim was not able to join us due to having a massive hangover from the previous night, so Varic had come in his place.</p>
+    content: `<p>The party started the session outside Corollas’ Museum in Marisberg ready to investigate  the stolen black glass. Upon arriving we learned that Belrim was not able to join us due to having a massive hangover from the previous night, so Varic had come in his place.</p>
     <p>We were led inside to start our investigation. The exhibits were all held in the basement, behind a door with both a magical and non-magical lock - though neither appeared to have been damaged/tampered with. Corollas lead us down and showed us the exhibits.</p>
     <p>Once down there, someone noticed that there was a part of the wall that appeared slightly different from the rest, almost like the mortar in that area was fresher than the others. Varic started to feel up the wall to check for any hidden buttons etc. Tieron found some water and manipulated it into a small crack in the wall, then froze the water to expand the crack. This loosened some of the bottom bricks, allowing Varic to knock some out of the way. When he done this, fresh loose dirt flowed out from behind it. Varic pushed his glaive into the dirt to see how far it reached - it appeared to be at least the length of the glaive.</p>
     <p>While this was happening, Orthon was being shown the other exhibits by Corollas. The notable exhibits were;</p>
