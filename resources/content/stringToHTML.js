@@ -1,17 +1,21 @@
 const textToHTML = (text) => {
-  let newText = text.replace(/\n/g, "</p>\n<p>");
-  newText = "<p>" + newText + "</p>";
-  newText = newText.replace(/<p>({\[.+\])((?:.|\n)+?)}<\/p>/mg, '$1<p>$2</p>}')
+  let newText = text.replace(/(.+)/g, "<p>$1</p>");
+  //newText = newText.replace(/<p>({\[.+\])((?:.|\n)+?)}<\/p>/mg, '$1<p>$2</p>}')
 
-  query = /{\[(.+)\](?:.|\n)+?}/mg;
+  query = /(.*){\[(.+)\](?:.|\n)+?}(.*)/mg;
   let result;
 
   while ((result = query.exec(newText)) !== null) {
-
     let modTxt = result[0];
-    let seporator = "div";
+    let seporator = ""
+    if (modTxt.includes("\n")) {
+      modTxt = modTxt.replace(/<p>({\[.+\])((?:.|\n)+?)}<\/p>/mg, '$1<p>$2</p>}')
+      seporator = "div";
+    } else {
+      seporator = "span";
+    }
     let setClass = "";
-    let results = result[1].split(",")
+    let results = result[2].split(",")
     for (var i = 0; i < results.length; i++) {
       switch (results[i]) {
         case "h":
@@ -28,7 +32,7 @@ const textToHTML = (text) => {
           break;
         case "l":
           seporator = "ul";
-          modTxt = modTxt.replace(/p>/g, "li>");
+          modTxt = modTxt.replace(/p>/mg, 'li>')
           break;
         case "n":
           setClass += "note ";
@@ -49,10 +53,21 @@ const textToHTML = (text) => {
 }
 
 const text =
-`{[b,u]This is a test to see if two classes can be added}
-{[l,i,b,u,h,n]This is a test for lists
-To see if it will work with them all
-another line}`;
+`{[h,u]This is a test for the content converter}
+{[l,b]First line
+Second line
+Third line}
+
+Testing {[b,i]inline} text
+
+{[b,i]Testing} front text
+
+Testing back {[b,i]text}
+
+{[b,i]Testing typical text}
+
+{[b,i]Testing mulitple
+paragraph text}`;
 
 
 const fs = require("fs");
