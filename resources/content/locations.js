@@ -25,11 +25,6 @@ const locations = [
     content: `<p>Sat atop a rocky outcrop on the edge of the Great Bay, it is known for producing the toughest sailors in the land at the Marine’s Guild. Some say that sailors from the guild are even capable of sailing in winter.</p>`
   },
   {
-    name: "Barns",
-    curLocation: false,
-    content: `<p></p>`
-  },
-  {
     name: "Barris",
     curLocation: false,
     content: `<p>Competes with Emery annually for the largest fishing haul every Autumn, the winning town earning the Golden Net to display for the next year. Average sized town.</p>`
