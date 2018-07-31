@@ -28,7 +28,7 @@ h1 {
 }
 
 h2 {
-  font-size: 1.5rem;
+  font-size: 1.75rem;
   padding-top: .5rem;
 }
 
@@ -124,11 +124,6 @@ header img {
 #menu h3 {
   margin-left: .5rem;
   color: #b9b7b0;
-}
-
-#menu .notVisited {
-  cursor: not-allowed;
-  opacity: .3;
 }
 
 #menu h3:hover {

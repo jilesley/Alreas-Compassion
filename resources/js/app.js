@@ -122,18 +122,19 @@ $(document).ready(function() {
 
   //Locations
   for (var i = 0; i < locations.length; i++) {
-    let $location = $("<h3>" + locations[i].name + "</h3>");
+    let $location;
+    if (locations[i].curLocation) {
+      $location = $("<h3>" + locations[i].name + " (current location)</h3>");
+    } else {
+      $location = $("<h3>" + locations[i].name + "</h3>");
+    }
     $location.data("name", locations[i].name);
     $location.data("content", locations[i].content);
-    if (locations[i].visited) {
-      $location.click(function() {
-        $content.html("<h1>" + $(this).data("name") + "</h1>" +
-                      $(this).data("content")
-        );
-      });
-    } else {
-      $location.addClass("notVisited")
-    }
+    $location.click(function() {
+      $content.html("<h1>" + $(this).data("name") + "</h1>" +
+                    $(this).data("content")
+      );
+    });
     $locations.append($location);
   }
 
