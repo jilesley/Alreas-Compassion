@@ -34,7 +34,7 @@ const characters = {
       name: "Orthon Anatole",
       player: "James",
       race: "Dragonborn",
-      class: "Paldin",
+      class: "Paladin",
       level: 2,
       kills: 0,
       img: "https://media-waterdeep.cursecdn.com/avatars/thumbnails/17/407/60/60/636377883694580108.jpeg",

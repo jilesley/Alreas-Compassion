@@ -15,7 +15,7 @@ $(document).ready(function() {
     $content.html("<h1>Welcome to Alrea's Compassion!</h1>" +
                   "<p>Alrea's Compassion is a 5th edition campaign run by our glorious GM - Calum Gaffney.</p>" +
                   "<p>This world is your typical fantasy setting, but with a few twists. In this world, the beings of nature run rampant at night. Almost all villages, towns and cities live within some sort of wall – once a certain population level is reached, the Gods of Nature seems to want to reclaim the land as their own again. Only through at least a palisade can villages hide their presence from the natural forces, and only through large stone walls can towns and cities resist the attention they draw.</p>" +
-                  "<br><p>If you would like to add anything to this site the best way is to add a file to <a class='underline italics' target='_blank' href='https://drive.google.com/drive/folders/1rTwWoohLyyS9a8iVUhIy5YnYK05zM4Ap?usp=sharing'>this Google dive folder</a>.</p>" +
+                  "<br><p>If you would like to add anything to this site the best way is to add a file to <a class='underline italics' target='_blank' href='https://drive.google.com/drive/folders/1rTwWoohLyyS9a8iVUhIy5YnYK05zM4Ap?usp=sharing'>this Google drive folder</a>.</p>" +
                   "<p class='noPad'> - Though please tell me if you do!</p>" +
                   "<p>Oh and don't forget, anything that's added can be seen by everyone, so don't add character stuff that you don't want others to know about.</p>"
     );
