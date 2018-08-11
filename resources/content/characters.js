@@ -58,7 +58,7 @@ const characters = {
       level: 2,
       kills: 5,
       img: "https://media-waterdeep.cursecdn.com/avatars/thumbnails/17/452/60/60/636377890039744108.jpeg",
-      content: `<h2>Content to be added</h2>`
+      content: `<p>Towering grey skinned Goliath. Both face and hair are clean shaved. A strong furrowed brow shades eyes of deep crimson colouration. His powerful build and skin tone give him the impression of the mountains that he calls home. Something about the way he holds himself betrays a concealed animosity straining to be let free. Across his whole torso and head tribal tattoos of what look like stylized blue flames cover large portions of his skin. If you stare at them for long enough they almost look like they are swirling and dancing across his skin.</p>`
     }
   ],
   npc: [
