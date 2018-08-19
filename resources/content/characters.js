@@ -37,7 +37,7 @@ const characters = {
       class: "Cleric",
       level: 3,
       kills: 1,
-      img: "http://media-waterdeep.cursecdn.com/avatars/thumbnails/4352/195/150/202/636698777743138344.jpeg",
+      img: "https://media-waterdeep.cursecdn.com/avatars/thumbnails/4352/195/60/81/636698777743138344.jpeg",
       content: `<h2>Content to be added</h2>`
     },
     {
@@ -59,7 +59,7 @@ const characters = {
       class: "Rogue",
       level: 3,
       kills: 3,
-      img: "http://media-waterdeep.cursecdn.com/avatars/thumbnails/18/22/150/150/636378979102191003.jpeg",
+      img: "https://media-waterdeep.cursecdn.com/avatars/thumbnails/18/22/60/60/636378979102191003.jpeg",
       content: `<h2>Content to be added</h2>`
     },
     {
