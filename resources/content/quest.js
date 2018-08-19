@@ -74,6 +74,6 @@ const quest = [
     date: "12th August 2018",
     party: ["TBC"],
     location: "A dude's garden in Marisberg",
-    content: "<h2>Has not started</h2>"
+    content: "<h2>To be added</h2>"
   }
 ];
