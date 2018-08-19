@@ -46,7 +46,7 @@ const locations = [
   },
   {
     name: "Bucliff",
-    curLocation: false,
+    curLocation: true,
     content: `<p>A small coastal fishing village, but has seen increased trade since The Inphisian Princess started to run between Mondalton and Bucliff when most other ships dock for the winter.</p>`
   },
   {
@@ -121,7 +121,7 @@ const locations = [
   },
   {
     name: "Marisberg",
-    curLocation: true,
+    curLocation: false,
     content: `<p>A coastal city of two halves. During the day, the various businessmen and tradesmen operate surface-side. During the night, the city retires beneath the earth into the Subterranea – a policy of the local militia so that they might keep the entire city within the protective walls without sacrificing economically useful space in favour of living quarters.</p>
     <p>The residents are a mixed bunch economically - the city sees vast trade in the summer months surpassed only by Enphis, but the benefit of this is only really seen by the middle & upper classes – the poor are just as destitute, if not more so, than the poor of other towns. During the winter months when trade dwindles, it is not uncommon for the poorest to truly struggle for food.</p>`
   },
