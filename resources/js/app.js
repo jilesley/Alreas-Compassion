@@ -67,6 +67,7 @@ $(document).ready(function() {
                   quest[i].party.join("</span>, <span class='character'>") +
                 "</span></h4>" +
                 "<h4><strong>Starting Location:</strong> " + quest[i].location + "</h4>" +
+                "<h4><strong>Written by:</strong> " + quest[i].author + "</h4>" +
               "</div>"
     );
     summaryInteract($log);
