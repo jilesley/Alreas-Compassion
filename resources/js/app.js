@@ -39,6 +39,7 @@ $(document).ready(function() {
   const summaryInteract = function($summary) {
     $summary.click(function() {
       $content.html($(this).data("summary") + $(this).data("content"));
+      $('.zoom').zoom();
     });
     if ( $( document ).width() > 1000 && !navigator.userAgent.match(/iPad/i)) {
       $summary.mousemove(function(event) {
@@ -131,11 +132,18 @@ $(document).ready(function() {
     }
     $location.data("name", locations[i].name);
     $location.data("content", locations[i].content);
+
     $location.click(function() {
       $content.html("<h1>" + $(this).data("name") + "</h1>" +
-                    $(this).data("content")
+                    $(this).data("content") +
+                    "<p class='heading'>Local Map</p>" +
+                    "<div class='zoom'>" +
+                      "<img src='resources/images/" + $(this).data("name") + ".jpg' alt='No Map Available'/>" +
+                    "</div>"
       );
+      $('.zoom').zoom();
     });
+
     $locations.append($location);
   }
 
@@ -149,6 +157,7 @@ $(document).ready(function() {
       $content.html("<h1>" + $(this).data("name") + "</h1>" +
                     $(this).data("content")
       );
+      $('.zoom').zoom();
     });
     $general.append($info);
   }

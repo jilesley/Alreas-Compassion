@@ -15,7 +15,7 @@ const locations = [
     content: `<p>Large trade town on the Elmaund coast. Similar architecture to Inphis. Cool, temperate climate.</p>`
   },
   {
-    name: "Anterbott",
+    name: "Antarbott",
     curLocation: false,
     content: `<p>Home to the most southern Node. A medium sized town, surrounded by large stone walls and one of the densest forests in the world.</p>`
   },
