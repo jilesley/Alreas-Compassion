@@ -31,7 +31,7 @@ const locations = [
   },
   {
     name: "Bjer",
-    curLocation: false,
+    curLocation: true,
     content: `<p>A small village surrounded by a small palisade, but notable for being the only town to survive in the Shadewoods and has its own Node for this reason.</p>`
   },
   {
@@ -46,7 +46,7 @@ const locations = [
   },
   {
     name: "Bucliff",
-    curLocation: true,
+    curLocation: false,
     content: `<p>A small coastal fishing village, but has seen increased trade since The Inphisian Princess started to run between Mondalton and Bucliff when most other ships dock for the winter.</p>`
   },
   {

@@ -114,10 +114,18 @@ const quest = [
   },
   {
     name: "Session 3",
-    date: "TBC",
-    party: ["TBC"],
+    date: "1st September 2018",
+    party: ["Artiti Baumk", "Belrim Bennar", "Hieronymus Botch", "Oriande Mallorn", "Orthon Anatole", "Shay Coulltree", "Tieron Malathrar", "Varic"],
     location: "A magical boat on the way to Bucliff",
     author: "N/A",
-    content: `<p class="heading">Session has not started yet</p>`
+    content: `<p class="heading">Waiting on write up</p>`
+  },
+  {
+    name: "Session 4",
+    date: "15th September 2018",
+    party: ["TBC"],
+    location: "An evil mansion in the Shadewoods",
+    author: "N/A",
+    content: `<p class="heading">Hasn't started yet</p>`
   }
 ];
