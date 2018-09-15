@@ -119,6 +119,14 @@ const characters = {
       race: "Dwarf",
       profession: "Magical boat man's friend/Bartender",
       content: `<p>The Bartender at Mondalton. A good friend of Egridian and a very cheery dwarf who we shared a few drinks and stories with.</p>`
+    },
+    {
+      name: "Belmont",
+      race: "Skeleton Man Construct?",
+      profession: "Butler/Cleaner for the spooky manour",
+      content: `<p>A skeleton construct that we found underneath our mansion who claimed that he serves whoever owned the dead to the mansion, which we currently held.</p>
+      <p>He was extremely insistent on us getting a deed sent off to confirm a guild that we seem to now be creating.</p>
+      <p>He has an incredible ability to clean, managing to clean the manour rooms in just a couple hours. (Possibly has a link to a linen dimension)</p>`
     }
   ]
 };
