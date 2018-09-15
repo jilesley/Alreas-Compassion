@@ -6,7 +6,7 @@ const characters = {
       race: "Human",
       class: "Ranger",
       level: 3,
-      kills: 9,
+      kills: 11,
       img: "https://media-waterdeep.cursecdn.com/avatars/thumbnails/17/415/60/60/636377885173419481.jpeg",
       content: `<h2>Content to be added</h2>`
     },
@@ -26,7 +26,7 @@ const characters = {
       race: "Human",
       class: "Monk",
       level: 3,
-      kills: 9,
+      kills: 10,
       img: "https://media-waterdeep.cursecdn.com/avatars/thumbnails/17/424/60/60/636377886749285983.jpeg",
       content: `<h2>Content to be added</h2>`
     },
