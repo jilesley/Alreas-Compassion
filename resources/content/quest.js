@@ -176,5 +176,13 @@ const quest = [
     <li>A blackglass brooch, powering a device inside a dark tower in a foreign land</li>
     <li>A blackglass ring, passed between hooded figures on busy streets</li>
     <li>A blackglass device (dioptra), in the hoard of a soldier-turned-pirate</li></ul>`
+  },
+  {
+    name: "Session 5",
+    date: "6th October 2018",
+    party: ["TBC"],
+    location: "Our new (now not so spoopy) Guild Mansion",
+    author: "N/A",
+    content: `<p class="heading">Has not started</p>`
   }
 ];
