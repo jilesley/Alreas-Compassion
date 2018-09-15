@@ -27,7 +27,7 @@ const characters = {
       class: "Druid",
       level: 3,
       kills: 0,
-      img: "http://media-waterdeep.cursecdn.com/avatars/thumbnails/17/189/150/150/636377837695498416.jpeg",
+      img: "https://media-waterdeep.cursecdn.com/avatars/thumbnails/17/189/60/60/636377837695498416.jpeg",
       content: `<h2>Content to be added</h2>`
     },
     {
