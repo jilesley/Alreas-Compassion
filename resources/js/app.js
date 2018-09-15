@@ -30,7 +30,7 @@ $(document).ready(function() {
   characters.player.forEach(function(player) {
     killCount += player.kills;
   });
-  $("#killCount").append("<span>" + killCount + "</span>");
+  $(".killCount").append("<span>" + killCount + "</span>");
 
 
   // Create Menu lists with data attached
