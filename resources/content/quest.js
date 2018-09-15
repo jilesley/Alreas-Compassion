@@ -117,15 +117,64 @@ const quest = [
     date: "1st September 2018",
     party: ["Artiti Baumk", "Belrim Bennar", "Hieronymus Botch", "Oriande Mallorn", "Orthon Anatole", "Shay Coulltree", "Tieron Malathrar", "Varic"],
     location: "A magical boat on the way to Bucliff",
-    author: "N/A",
-    content: `<p class="heading">Waiting on write up</p>`
+    author: "James",
+    content: `<p>Shade Woods has general creatures such as orcs and goblins</p>
+
+    <p>Went into the Shade Woods, found a spooky manor</p>
+
+    <p>Killed some ghosts in the kitchen</p>
+
+    <p>Belrim played a loud, long note on his bagpipe and Varic let out a roar, calling in all the enemies in the area.</p>
+
+    <p>Varic and Orthon almost died</p>`
   },
   {
     name: "Session 4",
     date: "15th September 2018",
-    party: ["TBC"],
+    party: ["Artiti Baumk", "Hieronymus Botch", "Orthon Anatole", "Tieron Malathrar", "Varic"],
     location: "An evil mansion in the Shadewoods",
-    author: "N/A",
-    content: `<p class="heading">Hasn't started yet</p>`
+    author: "James",
+    content: `<p>We’re in a spoopy mansion</p>
+
+    <p>Varic makes a torch click when he moves it (maybe a switch) but nothing happens</p>
+
+    <p>Found a small religious shrine to Olsinger, with a silver dagger and shortsword that Orthon took</p>
+
+    <p>We attack a weird crying child</p>
+
+    <p>We kill the undead/messed up creature/child</p>
+
+    <p>We went into a big open room and we heard a large bang above us</p>
+
+    <p>We explored upstairs and saw nothing</p>
+
+    <p>“…building the statue’s foundation, the boys found some sort of hollow beneath the earth. There’s some sort of shrine inside. Didn’t feel right, so we build the statue over the entrance but things haven’t been the same since. Nobody has been sleeping well, and the swamp seems boggier and darker than ever. We’re looking into…”</p>
+
+    <p>We clicked 4 different torches and the statue plinth had moved to reveal a dark passageway down</p>
+
+    <p>When we went through the dark passage we met two skeletal bodies standing in front of a large marble plinth with four black glass stalagmites that seemed to have erupted from the ground</p>
+
+    <p>The skellingtons instantly charged at us and we set one on fire and smashed the second</p>
+
+    <p>Once we beat them we noticed a skeletons body with a skull resting in its lap.</p>
+    <p>The skull had a glove in its mouth and appeared to be making muffled sounds.</p>
+    <p>The skeleton then started talking to us, and once its skull was put on the rest of its body, he started to walk around and talk to us.</p>
+
+    <p>We have a skeleton butler named Belmont who has a brilliant voice/personality</p>
+
+    <p>Belmont kept on talking about sending off a letter to the king about a guild, and said that this place was built for a guild.</p>
+    <p>He had been there for 6 years and doesn’t remember anything other than waiting down there.</p>
+    <p>He has an amazingly unnatural ability to clean that seems to be able to completely renovate furnishings and rooms.</p>
+
+    <p>The party started disposing of the bodies and claimed rooms</p>
+
+    <p>After spending some quality bonding time and working out what the hell we were going to do about the whole guild thing, the party checked in on the black glass that we left ot charge, and saw some visions;</p>
+
+    <p>5 items to find:</p>
+    <ul class=''><li>A blackglass tiara, buried beneath a giant temple. - (great temple of Auna in the desert)</li>
+    <li>A blackglass barbute/helmet, sat on a pedestal atop an arena - (Hotsapech)</li>
+    <li>A blackglass brooch, powering a device inside a dark tower in a foreign land</li>
+    <li>A blackglass ring, passed between hooded figures on busy streets</li>
+    <li>A blackglass device (dioptra), in the hoard of a soldier-turned-pirate</li></ul>`
   }
 ];
