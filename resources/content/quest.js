@@ -148,7 +148,7 @@ const quest = [
 
     <p>We explored upstairs and saw nothing</p>
 
-    <p>“…building the statue’s foundation, the boys found some sort of hollow beneath the earth. There’s some sort of shrine inside. Didn’t feel right, so we build the statue over the entrance but things haven’t been the same since. Nobody has been sleeping well, and the swamp seems boggier and darker than ever. We’re looking into…”</p>
+    <p class='note '>“…building the statue’s foundation, the boys found some sort of hollow beneath the earth. There’s some sort of shrine inside. Didn’t feel right, so we build the statue over the entrance but things haven’t been the same since. Nobody has been sleeping well, and the swamp seems boggier and darker than ever. We’re looking into…”</p>
 
     <p>We clicked 4 different torches and the statue plinth had moved to reveal a dark passageway down</p>
 
