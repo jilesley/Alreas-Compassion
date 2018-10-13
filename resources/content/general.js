@@ -3,7 +3,7 @@ const general = [
     name: "World and Setting",
     content: `<p>The world is much the typical fantasy setting. In this world, the beings of nature run rampant at night. Almost all villages, towns and cities live within some sort of wall – once a certain population level is reached, the Gods of Nature seems to want to reclaim the land as their own again. Only through at least a palisade can villages hide their presence from the natural forces, and only through large stone walls can towns and cities resist the attention they draw.</p>
     <p class="heading">World map</p>
-    <div class='zoom'><img src='resources/images/THE WORLD V2.jpg' /></div>`
+    <div class='zoom'><img src='resources/images/THE WORLD FINAL.jpg' /></div>`
   },
   {
     name: "The Pantheon",

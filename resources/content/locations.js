@@ -80,7 +80,7 @@ const locations = [
     content: `<p>Similar climate to Albion, but slightly more stable in winter along with Kepri, with whom it shares the joint profits of a recently unveiled marble quarry.</p>`
   },
   {
-    name: "Hitchen",
+    name: "Hitchem",
     curLocation: false,
     content: `<p>More commonly known as The Pilgrim Port, Hitchen is the first stop for any Paladin, Priest, Cleric or other worshipper looking to visit the various temples in the Dusties. The locals are accordingly quite religious, but Hitchen still otherwise operates like any other town, save for having walls uniquely made of Sandstone.</p>`
   },
