@@ -6,7 +6,7 @@ const characters = {
       race: "Human",
       class: "Ranger",
       level: 3,
-      kills: 11,
+      kills: 14,
       img: "https://media-waterdeep.cursecdn.com/avatars/thumbnails/17/415/60/60/636377885173419481.jpeg",
       content: `<h2>Content to be added</h2>`
     },
@@ -56,7 +56,7 @@ const characters = {
       race: "Dragonborn",
       class: "Paladin",
       level: 3,
-      kills: 1,
+      kills: 4,
       img: "https://media-waterdeep.cursecdn.com/avatars/thumbnails/17/407/60/60/636377883694580108.jpeg",
       content: `<p>A black, horned dragonborn who stands at 6 feet tall. He has emerald green eyes that peek out from his dark scaled head. He wears well maintained silver chain mail armour, which has gold highlights and the holy symbol of <span class='bold '>Uxen</span> in the center. He also wields a shield with the same holy symbol embraised onto it, as well as a simple mace in his right hand.</p>
       <p>He will often try to avoid violence whenever he can, but understands that it is at times the only way for though who are too far gone down the path of evil.</p>
@@ -78,7 +78,7 @@ const characters = {
       race: "Half-Elf",
       class: "Sorcerer",
       level: 3,
-      kills: 9,
+      kills: 14,
       img: "https://media-waterdeep.cursecdn.com/avatars/thumbnails/17/932/60/60/636378855806248172.png",
       content: `<h2>Content to be added</h2>`
     },
@@ -88,7 +88,7 @@ const characters = {
       race: "Goliath",
       class: "Blood Hunter",
       level: 3,
-      kills: 9,
+      kills: 12,
       img: "https://media-waterdeep.cursecdn.com/avatars/thumbnails/17/452/60/60/636377890039744108.jpeg",
       content: `<p>Towering grey skinned Goliath. Both face and hair are clean shaved. A strong furrowed brow shades eyes of deep crimson colouration. His powerful build and skin tone give him the impression of the mountains that he calls home. Something about the way he holds himself betrays a concealed animosity straining to be let free. Across his whole torso and head tribal tattoos of what look like stylized blue flames cover large portions of his skin. If you stare at them for long enough they almost look like they are swirling and dancing across his skin.</p>
       <p>Varic currently wields a glaive of a fairly ornate design. The shaft is ebony and slightly gilded with a pattern that runs up to and along the slightly curved blade. The weapon is in a stark contrast to his general appearance which is far more rugged.</p>
@@ -137,6 +137,12 @@ const characters = {
       content: `<p>A skeleton construct that we found underneath our mansion who claimed that he serves whoever owned the dead to the mansion, which we currently held.</p>
       <p>He was extremely insistent on us getting a deed sent off to confirm a guild that we seem to now be creating.</p>
       <p>He has an incredible ability to clean, managing to clean the manour rooms in just a couple hours. (Possibly has a link to a linen dimension)</p>`
+    },
+    {
+      name: "Bartlett",
+      race: "Human",
+      profession: "Paladin of Entex",
+      content: `<p class="heading">To be added</p>`
     }
   ]
 };

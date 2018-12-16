@@ -56,9 +56,7 @@ const textToHTML = (text) => {
 }
 
 const text =
-`A black, horned dragonborn who stands at 6 feet tall. He has emerald green eyes that peek out from his dark scaled head. He wears well maintained silver chain mail armour, which has gold highlights and the holy symbol of {[b]Uxen} in the center. He also wields a shield with the same holy symbol embraised onto it, as well as a simple mace in his right hand.
-He will often try to avoid violence whenever he can, but understands that it is at times the only way for though who are too far gone down the path of evil.
-Those who have spent some time with him will know the deep respect he has for the priest whom he trained under - {[b]Niccolò}.`;
+``;
 
 const fs = require("fs");
 

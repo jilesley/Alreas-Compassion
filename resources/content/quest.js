@@ -179,10 +179,74 @@ const quest = [
   },
   {
     name: "Session 5",
-    date: "6th October 2018",
-    party: ["TBC"],
+    date: "10th November 2018",
+    party: ["Artiti Baumk", "Eldaril Bulantook", "Hieronymus Botch", "Orthon Anatole", "Tieron Malathrar", "Varic"],
     location: "Our new (now not so spoopy) Guild Mansion",
-    author: "N/A",
-    content: `<p class="heading">Has not started</p>`
+    author: "James",
+    content: `<p>Decided the guild is called called “The Shards” - a Historical/Archaeological guild to mask our intentions. We sent off the documents to the king.</p>
+    <p>For our trek into the desert we packed 7 days of rations each.</p>
+    <p>Varic and Heironymus discussed the iconography of a spire with a ring at the top. Heironymus knew this ring at least to be associated with Texnix. Seems to be related to the tower of Parnassium. Varic confided in Heironymus that he believes he is being hunted by followers using this symbol. The group doesn’t know this yet.</p>
+    <p>Met Eldaril Bulantook (Hannah) just before we set off to Hitchem.</p>
+    <p>Father Soulsbury directed us to pilgrims rest.</p>
+    <p>Father Adrian to advise us (in Pilgrims rest) - not there at the moment.</p>
+    <p>Kerina (a priest) tells us about the pilgrimage.</p>
+    <p>We will share a single tent, set up when the sun touches the horizon.</p>
+    <p>Hieronymus really wanted a bath, but the bath house was overrun by kruthiks - told to talk to Captain Edding for more details.</p>
+    <img src="./resources/images/kruthik.png" alt="" />
+    <p>These fucks are in the bath house.</p>
+    <p>DANTE NEEDS A BOY FOUND (Zac and James reckon it’s Ispep)</p>
+    <p>If we kill the hive lord, the rest should flee.</p>
+    <p>We squashed a load of eggs.</p>
+    <p>Tieron kept on walking away from everyone….</p>
+    <p>Eldaril glitter bombed (fairy fire) Orthon and a bunch of the scary kruthik.</p>
+    <p>Tieron Shot out two orbs - one cold one acid and deleted the kruthik  from existence.</p>
+    <p>We found the hive lord and everyone almost died - except for Hieronymus, who did die.</p>
+    <p>From everyone else’s perspective, Varic roared Hieronymus back to life but he had actually sold his soul to some spooky lord of death...</p>`
+  },
+  {
+    name: "Session 6",
+    date: "24th November 2018",
+    party: ["Artiti Baumk", "Belrim Bennar", "Eldaril Bulantook", "Hieronymus Botch", "Oriande Mallorn", "Orthon Anatole", "Tieron Malathrar", "Varic"],
+    location: "Hitchem",
+    author: "James",
+    content: `<p>We were asked to hunt a paladin of Entex called Bartlett.</p>
+    <p>We get 30 gold + anything non-sentimental on him.</p>
+    <p>We asked around and heard about a suspicious hooded fellow in town a few days ago. He was trying to sell a golden fish amulet - a farmer called Bailey had one.</p>
+    <p>To lure out the suspicous guy, we decided that Belrim will pretend to be selling something and try to barter with him.</p>
+    <p>Surprisingly enough, it worked (sort of).</p>
+    <p>The suspicious guy showed up at the pub we were waiting in. Belrim made it very obvious he hadn’t done anything like this and the guy tried to leave. The group pushed him into an alley by the pub.</p>
+    <p>The group started to threaten the suspicious guy to get him to tell them where Bartlett was hiding out, but he wouldn’t tell them anything.</p>
+    <p>Orthon channeled Uxen’s divinity to help persuade the suspicious guy to cooporate on the grounds that he wouldn’t let the others harm him. The guy agreed telling the group that Bartlett was at an old farm house just outside of town.</p>
+    <p>After telling the group this, Orthon let the man go, who quickly took off running - making Artiti ready an arrow to shoot him down, though Orthon grabbed the bow out of Artiti’s hands before he could make the shot.</p>
+    <p>The group headed over to the farm house, which they saw was sitting on a hill as a form of natural protection from both the elements and the beings that are sent by the Gods of the Earth.</p>
+    <p>Eldaril turned herself into a spider and scouted out the house - it seemed to be all clear, but the house itself had been burned down.</p>
+    <p>By the house was the symbol of Oynel (God of farming & fishing) that had been formed in the traditional way by burning the ground and letting a natural fungus grow to create the symbol.</p>
+    <p>While some of the group were investigating the burned house, a guy came along the path and spotted some of the group and took off running in the opposite direction. The party followed after him - leading them to a clearing with a set of tents, and a fully armoured man riding attop a large black warhorse was waiting for them.</p>
+    <p>Roll for initiative.</p>
+    <p>The group soon surrounded Bartlett, with both Varic and Eldarils bear forms flanking him, he was swiftly struck down, but not before knocking Orthon down with a critical blow.</p>
+    <p>While the rest of the group was surrounding Bartlett, Hieronymus was running back and forth between the other 3 men who were part of Bartlett’s gang, grabbing their arrows and throwinbg them back at them, or just generally pummeling one guy who was trying to run.</p>
+    <p>Artiti got the final shot on Bartlett, but made sure that it wasn’t a leathal blow.</p>
+    <p>On his knees, Bartlett begged for his life to be taken, as he had no worth going back to the town for trial, pleading that he would just be hanged. He was a paladin of Entex, and so should be struck down by a blade not by a rope.</p>
+    <p>The group accepted and asked who he wishes to be killed by, he says Orthon. Tieron hands Orthon his knife. Orthon Picks up Bartlett, pulling him allong towards to wooded area. He tells the rest of the group not to follow him.</p>
+    <p>Orthon leads Bartlett to a clearing in the woods. He heals Bartlett for 5 point with lay on hands then hands him his mace.</p>
+    <p>“This is your chance to either die by my blade, or prove you are worthy to continue on.” Orthon says while drawing his silver sword.</p>
+    <p>Bartlett strikes before Orthon, his first hit bouncing off his shield, but his second hit lands, hard.</p>
+    <p>Orthon falls to his knees. Bartlett grabs his neck and says; “Does your oath require you to die by my blade?”</p>
+    <p>“It is your choice to make.”</p>
+    <p>Bartlett drops Orthon - his body collapsing to the ground, blood slowly pouring out the wound in his head.</p>
+    <p>As Orthon falls unconcious, Bartlett says; “That was the most honour that anyone has ever shown me. For that, I will not take your life this day.”</p>
+    <p>Bartlett drops tha mace by Orthon, and takes his silver sword and attaches it to his belt. As he turns away, he says; “I shall try to do better this time.”</p>
+    <br/>
+    <p>While this was happening, the rest of the group interegated the other members of Bartlett’s gang, finding out that he stored 30gp by one of the tents, which Belrim swiftly found.</p>
+    <p>About 20 minutes later, Orthon limps out of the woods and hands Tieron back his knife, saying that Bartlett is delt with.</p>
+    <p>After hearing that Bartlett had about 100gp stored away somewhere, Eldaril remembered a grave that was by the farmers house - unusual as most bodies tend to be cremated. When the group goes to investigate the grave, they find the 100gp, as well as a cursed Glaive that Varic takes, and a longbow that Eldaril takes.</p>`
+  },
+  {
+    name: "Session 7",
+    date: "24th November 2018",
+    party: ["Artiti Baumk", "Oriande Mallorn", "Orthon Anatole", "Varic"],
+    location: "Hitchem",
+    author: "James",
+    content: `<p class="heading">To be added</p>`
   }
 ];
