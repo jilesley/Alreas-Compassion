@@ -81,12 +81,12 @@ const locations = [
   },
   {
     name: "Hitchem",
-    curLocation: true,
+    curLocation: false,
     content: `<p>More commonly known as The Pilgrim Port, Hitchen is the first stop for any Paladin, Priest, Cleric or other worshipper looking to visit the various temples in the Dusties. The locals are accordingly quite religious, but Hitchen still otherwise operates like any other town, save for having walls uniquely made of Sandstone.</p>`
   },
   {
     name: "Hotsapech",
-    curLocation: false,
+    curLocation: true,
     content: `<p class="heading">LARGER DESCRIPTION, WILL UPDATE</p>`
   },
   {

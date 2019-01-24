@@ -5,8 +5,8 @@ const characters = {
       player: "Goss",
       race: "Human",
       class: "Ranger",
-      level: 3,
-      kills: 14,
+      level: 5,
+      kills: 16,
       img: "https://media-waterdeep.cursecdn.com/avatars/thumbnails/17/415/60/60/636377885173419481.jpeg",
       content: `<h2>Content to be added</h2>`
     },
@@ -15,7 +15,7 @@ const characters = {
       player: "Luke",
       race: "Dwarf",
       class: "Bard",
-      level: 3,
+      level: 5,
       kills: 0,
       img: "https://media-waterdeep.cursecdn.com/avatars/thumbnails/10/71/60/60/636339380148524382.png",
       content: `<h2>Content to be added</h2>`
@@ -25,8 +25,8 @@ const characters = {
       player: "Hannah",
       race: "Elf",
       class: "Druid",
-      level: 3,
-      kills: 0,
+      level: 5,
+      kills: 1,
       img: "https://media-waterdeep.cursecdn.com/avatars/thumbnails/17/189/60/60/636377837695498416.jpeg",
       content: `<h2>Content to be added</h2>`
     },
@@ -35,8 +35,8 @@ const characters = {
       player: "Alex",
       race: "Human",
       class: "Monk",
-      level: 3,
-      kills: 10,
+      level: 5,
+      kills: 15,
       img: "https://media-waterdeep.cursecdn.com/avatars/thumbnails/17/424/60/60/636377886749285983.jpeg",
       content: `<h2>Content to be added</h2>`
     },
@@ -45,8 +45,8 @@ const characters = {
       player: "Phoebe",
       race: "Human",
       class: "Cleric",
-      level: 3,
-      kills: 2,
+      level: 5,
+      kills: 5,
       img: "https://media-waterdeep.cursecdn.com/avatars/thumbnails/4352/195/60/81/636698777743138344.jpeg",
       content: `<h2>Content to be added</h2>`
     },
@@ -55,8 +55,8 @@ const characters = {
       player: "James",
       race: "Dragonborn",
       class: "Paladin",
-      level: 3,
-      kills: 4,
+      level: 5,
+      kills: 9,
       img: "https://media-waterdeep.cursecdn.com/avatars/thumbnails/17/407/60/60/636377883694580108.jpeg",
       content: `<p>A black, horned dragonborn who stands at 6 feet tall. He has emerald green eyes that peek out from his dark scaled head. He wears well maintained silver chain mail armour, which has gold highlights and the holy symbol of <span class='bold '>Uxen</span> in the center. He also wields a shield with the same holy symbol embraised onto it, as well as a simple mace in his right hand.</p>
       <p>He will often try to avoid violence whenever he can, but understands that it is at times the only way for though who are too far gone down the path of evil.</p>
@@ -67,8 +67,8 @@ const characters = {
       player: "Rachel",
       race: "Gnome",
       class: "Rogue",
-      level: 3,
-      kills: 4,
+      level: 5,
+      kills: 7,
       img: "https://media-waterdeep.cursecdn.com/avatars/thumbnails/18/22/60/60/636378979102191003.jpeg",
       content: `<h2>Content to be added</h2>`
     },
@@ -77,7 +77,7 @@ const characters = {
       player: "Nick",
       race: "Half-Elf",
       class: "Sorcerer",
-      level: 3,
+      level: 5,
       kills: 14,
       img: "https://media-waterdeep.cursecdn.com/avatars/thumbnails/17/932/60/60/636378855806248172.png",
       content: `<h2>Content to be added</h2>`
@@ -87,8 +87,8 @@ const characters = {
       player: "Zac",
       race: "Goliath",
       class: "Blood Hunter",
-      level: 3,
-      kills: 12,
+      level: 5,
+      kills: 22,
       img: "https://media-waterdeep.cursecdn.com/avatars/thumbnails/17/452/60/60/636377890039744108.jpeg",
       content: `<p>Towering grey skinned Goliath. Both face and hair are clean shaved. A strong furrowed brow shades eyes of deep crimson colouration. His powerful build and skin tone give him the impression of the mountains that he calls home. Something about the way he holds himself betrays a concealed animosity straining to be let free. Across his whole torso and head tribal tattoos of what look like stylized blue flames cover large portions of his skin. If you stare at them for long enough they almost look like they are swirling and dancing across his skin.</p>
       <p>Varic currently wields a glaive of a fairly ornate design. The shaft is ebony and slightly gilded with a pattern that runs up to and along the slightly curved blade. The weapon is in a stark contrast to his general appearance which is far more rugged.</p>
@@ -142,6 +142,86 @@ const characters = {
       name: "Bartlett",
       race: "Human",
       profession: "Paladin of Entex",
+      content: `<p>A Paladin of Entex that the party was hired to take down in Hitchem.</p>
+      <p>He was raiding farmers and other locals in the area. He was originally hired to look after the roads around the area, but after years of nothing changing, grew more and more frustrated and annoyed at the world.</p>
+      <p>The party defeated him and his crew, then Orthon gave him a second chance by chalanging him to duel for his life. Orthon lost and Bartlett walked off with his silver sword and the parting words; "I shall try to do better this time."</p>`
+    },
+    {
+      name: "Edding",
+      race: "Human",
+      profession: "Captain of the Guard in Hitchem",
+      content: `<p class="heading">To be added</p>`
+    },
+    {
+      name: "Lerias Rainwater",
+      race: "Half-Elf",
+      profession: "Keeper of the Great Temple of Auna",
+      content: `<p class="heading">To be added</p>`
+    },
+    {
+      name: "Laylia Rainwater",
+      race: "Half-Elf",
+      profession: "Keeper of the Great Temple of Auna",
+      content: `<p class="heading">To be added</p>`
+    },
+    {
+      name: "Princess Oliffe",
+      race: "Human?",
+      profession: "Voice from the past? who talks to us through a magic tiara",
+      content: `<p class="heading">To be added</p>`
+    },
+    {
+      name: "Princess Kerimar",
+      race: "Human?",
+      profession: "Princess Oliffe's sister. Linked to the black glass Brooch",
+      content: `<p class="heading">To be added</p>`
+    },
+    {
+      name: "Prince Martice",
+      race: "Human?",
+      profession: "Princess Oliffe's sister. Linked to the black glass Signet ring",
+      content: `<p class="heading">To be added</p>`
+    },
+    {
+      name: "Prince Kappan",
+      race: "Human?",
+      profession: "Princess Oliffe's sister. Linked to the black glass Dioptra",
+      content: `<p class="heading">To be added</p>`
+    },
+    {
+      name: "Princess Rehar",
+      race: "Human?",
+      profession: "Princess Oliffe's sister. Linked to the black glass Helmet/barbute",
+      content: `<p class="heading">To be added</p>`
+    },
+    {
+      name: "Grengy(?)",
+      race: "Dwarf",
+      profession: "Hotsapech Arena worker",
+      content: `<p class="heading">To be added</p>`
+    },
+    {
+      name: "Allard",
+      race: "Halfling",
+      profession: "Shopkeep at Allard and Nana’s Armour and Shields in Hotsapech",
+      content: `<p class="heading">To be added</p>`
+    },
+    {
+      name: "Potion Shopkeeper",
+      race: "Gnome",
+      profession: "Shopkeeper of The Fox’s Tinctures – potion shop in Hotsapech",
+      content: `<p class="heading">To be added</p>`
+    },
+    {
+      name: "Ketty Omlinson",
+      race: "Dwarf",
+      profession: "Drunk/fighter in Hotsapech",
+      content: `<p class="heading">To be added</p>`
+    },
+    {
+      name: "Antiochus",
+      race: "Human",
+      profession: "Master and presenter at the Hotsapech arena",
       content: `<p class="heading">To be added</p>`
     }
   ]
