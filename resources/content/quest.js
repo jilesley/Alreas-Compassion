@@ -498,6 +498,202 @@ const quest = [
     date: "25th January 2019",
     party: ["Belrim Bennar", "Eldaril Bulantook", "Hieronymus Botch", "Oriande Mallorn", "Orthon Anatole", "Shay Coulltree", "Tieron Malathrar", "Varic"],
     location: "Arena in Hotsapech",
+    author: "The Note Scholar Pheobe",
+    content: `<p class="heading"><span class=''>Session overview</span></p>
+    <p><span class='bold '>Key:</span> (?) means not sure on spelling. xx means number not heard and not written down.</p>
+    <p><span class='bold '>Characters downed:</span> 0</p>
+    <p><span class='bold '>Character deaths:</span> 0</p>
+    <p><span class='bold '>Character status:</span> Artiti was turned to stone for 24 hours. This effect should have lifted by this session, but his immune system is crap so now we need to drag his statue form around with us. One of his arms, up to his elbow, is returned to normal, but the rest is stone. Orthon had still lost his voice by the start of this session but regained it during this session.</p>
+    <p><span class='bold '>Kill count:</span></p>
+    <p><span class='bold '>Heal count:</span></p>
+    <br/>
+    <p><span class='underline bold '>At the arena</span></p>
+    <p>Varic and Oriande drag Hieronymous out from under the dead lizard. Antiochus is now approaching us, is actually quite impressed by our success. Gives us a small chest, and a string of 100 platinum coins on a silk ribbon.</p>
+    <p>He then asks who we want to take the black glass helmet. Varic shoves Oriande forwards, and Antiochus places the helmet on his head. Everyone cheers, and there’s a party planned to last a long time. Varic also plugs Allard’s armour because Orthon still has no voice.</p>
+    <p>We leave the arena, returning to our quarters. The guardsman at the door is impressed, and lets us know that there’s been a guest waiting for us. We start to divide up the winnings between us, and we get 16 coins each, with one left over.</p>
+    <p>Artiti is still a statue, but Oriande’s passive perception is 19 so he can see Artiti’s pinkie finger wriggling. He’s getting there, but his metabolism is terrible, so he’s not back yet.</p>
+    <p>The guest is a thin man who’s got a dark grey beard, and long dark hair. Master Greyjen (?) He’s wearing a fancy robe. Says we’re overdue a teleport back to the city. Shay asks if we can still teleport Artiti, who is a statue, and he says yes.</p>
+    <p>Master Greyjen gives Orthon a silver ring which allows telepathic communication, as Orthon can’t talk yet. Orthon asks who booked in our teleport, and Master Greyjen explains that one of the juniors did it, do the paperwork’s wrong. Orthon asks if he can return the armour first.</p>
+    <p>Shay asks if we can delay our teleport back so that we can party a bit and rest, and Master Greyjen agrees on the condition that we tell him how a group of strange individuals came to fight in the arena.</p>
+    <p>We go to Allard first, to return the armour we borrowed. Hieronymous asks Oriande if he can try on the helmet, and then Shay, whilst we’re walking to Allard’s. Varic stays at the back of the group, because he wants to keep an eye on Master Greyjen.</p>
+    <br/>
+    <p><span class='italics '>MEANWHILE</span></p>
+    <p>Tieron and Belrim are sort of by themselves at the moment, knowing that the rest of the group had gone to fight in the arena. Staying in an inn called the Limping Lamb, sharing a room.</p>
+    <p>They set up their own travelling show whilst we were gone. They make ten gold on their first night of performing. Their band name is S Club 2. They get 5 gold on the next night and split their earnings separately. So they go to bed that night feeling pretty satisfied.</p>
+    <br/>
+    <p><span class='underline bold '>At Allard’s</span></p>
+    <p>Master Greyjen is in the mid of the group, but Varic is still at the back. Orthon opens the door to Allard’s, and he’s very happy to see us. “Get that armour off right now,” Allard says, very excited, because he’s got buyers lining up. Orthon does strip (he’s got vestments underneath), and Allard helps him. We did him a massive favour, so now he’s very grateful. He thought about letting Orthon keep the money, and then decides he’s not that good-hearted.</p>
+    <p>Master Greyjen speaks on Orthon’s behalf; expresses Orthon’s gratitude and asks for more armour (splint(?) armour). Allard does actually have some armour ready for him, which he offers at the price of 200 gold. Master Greyjen manages to barter it down to 100 gold.</p>
+    <p>Varic pulls Hieronymous to the side whilst Master Greyjen is talking to Allard, intending to talk to him privately. Master Greyjen does notice Varic doing that, but doesn’t react to it. Varic tells Hieronymous that he bears the mark of the wolf on the letter Shay received and the mark they discussed (related to Varic’s clan).</p>
+    <p>Varic says he wants to see how Oriande and Shay handle their ale.</p>
+    <br/>
+    <p><span class='underline bold '>Party time</span></p>
+    <p>We all make our way to the beach, and we don’t pay for our drinks tonight. Those who rolled above 15 are a bit drunk but feeling good, anyone below is going to feel rough tomorrow. Meanwhile Eldaril is absolutely out of it, having rolled a 2. Master Greyjen is with us, and has only had one or two drinks, much like Oriande.</p>
+    <p>Orthon is drunk, and goes up to Oriande. “Watch this.” He then uses Hold Person on Varic, and tackles him, so Varic has to bench press this dragon off of him once the spell wears off. Eldaril sees this happening and she wants to join in. She is hella drunk but somehow rolls a nat 20, so she casts Produce Flame but it’s HUGE. Getting this group drunk is apparently quite dangerous.</p>
+    <p>Master Greyjen and Shay have been chatting whilst this chaos has been going on. She hasn’t told him the whole story yet, but she’s just talking about history and artefacts, and asks if he’s heard any updates about the unrest in the capital. He’s interested by the artefact thing before and says that he’s seen something similar crafted with black glass. He says he can’t remember much about it, but it’s far away and out of reach. Shay rolls 12 on her persuasion check, and he’s reluctant to expand on it anymore.</p>
+    <p>Varic is still suspicious, but thinks Master Greyjen is telling the truth, even though he’s not talking about everything.</p>
+    <p>Master Greyjen returns to questioning Shay, but she doesn’t want to tell him all about the prophecy. He sees she’s reluctant to talk, but doesn’t think she’s lying, and asks if she knows about the age of dwarves instead. There’s evidence that there were a lot more dwarves, who were more powerful and more organised, and even had mages. He’s particularly interested in plain(a? er?) travel (branch of teleportation?). Believes the warp nodes operate on the same mechanism. Shay asks about the tiara’s abilities and sees if they’re similar, but does it in a way so that Master Greyjen doesn’t know that we have it. “Hypothetically, could it lead to travelling to such linked realms?” Greyjen says it’s a bit iffy, doesn’t think it’s possible (to use the tiara to travel to the past).</p>
+    <p>We fall asleep on the beach, and get a long rest from it. We wake up to a loud sound, and see a glowing circle with mist pouring out of it. We see two shadows moving out of it. One of them is stone Artiti, which Greyjen pushes through, and then asks if we want to go.</p>
+    <p>Before we leave, Varic speaks. “Before we go anywhere with you, I want you to explain the rings. Wolf’s head is a symbol of King Wolfgard(?), which was given in honour of his service, the other is the sigil of a group of mages he sometimes assists. Varic turns to us and tells us about the rings.</p>
+    <p>Shay asks if he can tell us more about King Wolfgard. Greyjen says Wolfgard was a good man, if a bit aggressive in his later years. Shay wants to know if he still has support within the people today. Most people accepted his son’s ascension.</p>
+    <p>Greyjen teleports us.</p>
+    <br/>
+    <p><span class='italics '>MEANWHILE</span></p>
+    <p>S Club 2 wake up early in the morning, when the sun isn’t even up, because there’s a knock at the door. Tieron goes to answer it, and Belrim readies his axe. As Tieron goes to open it, the door bursts open, and two men in blue armour with gold trim enter, their hands on their sword hilts. These are clearly palace guards. Belrim drops his axe. A third man enters more slowly, less urgent, in steel armour. He’s very tall for a human, about 6’6”. He doesn’t wear a helmet, and he’s in his late 50s. Dark silver moustache and short beard but has a scarred face. Kingsguard.</p>
+    <p>“Belrim Bennar, Tieron Malathrar, you will come with us.” Belrim’s upset this whole sentence doesn’t rhyme. Tieron wants to know why, but he’s not told. They both agree to go with the guards, who walk them through the city. They’re under some form of arrest, having to wear manacles, and are taken down into a dungeon. They are thrown into a cell and spend the day waiting, basically, with one guard. They’re both still manacled. Is this the end of S Club 2?!</p>
+    <p>Four more guards come down, and ask for them to remove all their belongings and stand by the walls. It’s not the first time Belrim’s been arrested for drunk and disorderly, so they both comply, and spend the rest of the day pacing the cell, bored out of their minds. Suddenly, their cell is lit by a flash of purple light, which then quickly fades. They rush to the grate, and see a man in a grey robe.</p>
+    <p>The group has been teleported into the cell opposite S Club 2’s.</p>
+    <p>Greyjen says he’s sorry, but we’ve been accused of great crimes. Apparently something to do with Hitchem.</p>
+    <p>Varic punches the door in frustration, but it doesn’t come down. He tells us that Greyjen bears the mark of the people responsible for the annihilation of Varic’s people but hadn’t attacked him up until now because he couldn’t tell if Greyjen was lying. Based on Varic’s description of the mark,</p>
+    <p>Tieron knows (much like the rest of the group) know that the mark relates to the god of magic, but the spire at the bottom is unfamiliar.</p>
+    <p>Before we can do anything else, six guards come down, standing between the two cell doors. We’re told to get rid of our belongings, basically everything but our clothes. They unlock the door, and all of our belongings are packed into a chest of holding.</p>
+    <p>Character note: Now that we can see it, Varic’s entire torso and probably most of his body is covered with blue fire tattoos.</p>
+    <br/>
+    <p><span class='underline bold '>In the morning</span></p>
+    <p>Eleven guards come down to us, 5 to each door, whilst one stands in the middle. He’s got a big sort of trolley with him (the kind that carries heavy objects on it). We’ve been granted with permission to see the king, but we don’t fight them.</p>
+    <p>We’re led up a set of steps, and find ourselves in a long rectangular room, definitely a throne room. It has gilded marble pillars, marble walls, and a domed glass ceiling. The floor is really fine marble tiles. Most people are sitting in fancy chairs, except for one figure wearing a golden crown embedded with sapphires. He’s got long dark hair, fair skin, green eyes, but he’s got slightly pointed ears. Not an elf, but a half elf. There’s throne to his left is empty, but to his right is a woman who is similar in appearance to the king. She’s wearing a gentleman’s doublet, sitting cross-legged, looking pretty bemused and grin when we come it. The man who arrested Tieron and Belrim is also present.</p>
+    <p>Oriande, Belrim, and Tieron have spent some time in Elmond(?), and recognise King Embris and the woman, Princess Frissa, the king’s sister. Eldaril lives close, so she recognises them too, and though Shay doesn’t know who the beardy wizard is, she knows that the other guy is the Lord General Ashing.</p>
+    <p>The guards step aside to let us enter, but the first guard approaches the king and presents the members of the guild operating as The Shards.</p>
+    <p>The king asks us to state our business in Hitchem. Eldaril explains that we went there looking for a teleport, and that was it. The king says that’s strange, because we were the last people to leave Hitchem alive. The town has been destroyed. So now we need to explain.</p>
+    <p>But we didn’t do anything, and the king is confused by our purpose, clearly doesn’t believe us. So Shay explains why we went to the arena, saying we’re a historical guild looking for very specific artefacts.</p>
+    <p>The king turns to his sister, asking for her report. She says that all she’s heard of us is that we were very kind, and then the reports stopped when it got levelled. Master Greyjen vouches for us too, saying that it would take a lot of power to do the damage we supposedly did.</p>
+    <p>The king understands their reasoning, but says it is massively suspicious. The Lord General agrees and says until we are proven innocent then we are to be held here.</p>
+    <p>Tieron isn’t happy with that, understandably, pointing out that we have Orthon, and the people were comfortable with our conduct, but the king talks over him. Tieron insists, saying we minded our own business, and when we left the town was as it always was, potentially improved due to our intervention with the insects. He rolls a 25 on his persuasion check, and the king is conflicted with</p>
+    <p>feeling responsible for an entire city being lost. And he says at the moment he can’t let us go, not trusting us because of the company we keep.</p>
+    <p>He looks directly at Oriande when he says that, who looks both alarmed and confused, and just says “I’m not sure what you mean, your Majesty.” But the king dismisses it as another matter, returning to the issue of the town. Greyjen does still vouch for us, saying it could be a different threat, but Frissa shuts that down.</p>
+    <p>Varic then takes the time to point out that he is the last of his clan, because his people were killed in a similar way to the people of Hitchem. He says they were attacked by a group of robed figures bearing the symbol that Greyjen has on his ring. The king appears sympathetic, but Varic says “Maybe you need to ask him.” Greyjen is the Lord Magus though, and the King backs him up.</p>
+    <p>Tieron points out that the fact remains that two groups of people have been destroyed in the past few months. He says that though we may be accused of one, we can’t be responsible for both. But the king says there’s no proof that the events are related.</p>
+    <p>All he wants from us at the moment is information. We don’t have much information to offer of our proof, other than that we weren’t there. The king says that there’s a lot of factors that paint us in a suspicious light and finds it strange that we’re collecting artefacts for magical purposes when we’re a historical guild.</p>
+    <p>Since we have no further information to offer at that moment, the king returns to the matter of Oriande, and Orthon questions Oriande “being associated with a traitor”. The king decides to deal with that matter there and then, and asks if it’s a conversation Oriande would prefer to have in private. He says he has nothing to hide from his companions, as he’s done nothing wrong, so the king explains that Artus Mallorn and four of his sons assassinated three arch dukes (or tried to?), which is obviously treason.</p>
+    <p>Oriande is understandably concerned and frustrated by this revelation, and asks if he can speak to his father. The king allows it, on the condition that they use Master Greyjen’s rings for telepathy, so that they can overhear the conversation between the two of them. It would be a chance to get a confession from Artus and also prove Oriande’s innocence.</p>
+    <p>Though he doesn’t like the idea of someone being in his head, Oriande agrees to go with the guards to talk to his father. He’s taken away and returns half an hour later VERY unimpressed. Looks a bit shaken but also annoyed, which is rare. He takes off the ring and practically throws it back at Greyjen, glad to be done with that. His innocence proven, and Artus’ involvement confessed, the Lord General says that Artus will be executed within the week. Oriande points out that he might be more useful alive than dead, and that’s acknowledged but not commented upon.</p>
+    <p>Shay gives the letter with Wolfgard’s seal to the king, and it turns out Frissa was the one who sent it. She wanted to test if we were capable of anything more than getting ourselves into trouble. She offers us a job in exchange for information of an item she thinks we might be interested in. Varic says he wants to talk to Greyjen.</p>
+    <p>The king retires, as does the Lord General. Greyjen says he’ll be waiting for Varic, goes off on his way. We go to talk to Frissa first.</p>
+    <p>She says she knows of two jobs they can do, which involve getting two different black glass artefacts. One she’ll think about more, but the first; “What do you know about pirates?” Tieron says he’s heard of The Admiral (leading pirates to raid traders and destroy ships etc), who she needs us to kill.</p>
+    <p>Hitchum is in the great bay, which is where the pirates operate. He’s definitely a bad dude, so there is reason to kill him.</p>
+    <p>Oriande also asks how many men work for him, needing to know how many healing spells to prep. In Tiffis, about a thousand people who live there, pirates and their wives, but has 120 rowers on the ship with him. Oriande asks which artefact he has, and they find out he’s currently in possession of the dioptre.</p>
+    <p>We agree to do this, and she says that once we’ve dealt with that matter to come back to her for the next thing. We’re going to take a warp node to Arris, to get a ship from the mariner’s guild. When we’re done, head to Colvilla. Frissa leaves the room.</p>
+    <p>Varic calls Greyjen back, but Oriande catches Greyjen on his way out of the room. Asks if he knew of what his father had said, and Greyjen admits to having heard whispers of that figure before, thinking it to be the same person as The Admiral. Oriande is not impressed, says that Greyjen should have looked into this as soon as he heard about it.</p>
+    <p>“By the way my name’s Edwin Greyscythe, not Master Greyjen. That’s a thing.”</p>
+    <p>Then he goes into the room to talk to Varic. They’re in there for a short while, and then Varic comes out to help the others move statue Artiti. </p>`
+  },
+  {
+    name: "Session 11",
+    date: "15th February 2019",
+    party: ["Artiti Baumk", "Eldaril Bulantook", "Hieronymus Botch", "Oriande Mallorn", "Orthon Anatole", "Shay Coulltree", "Tieron Malathrar", "Varic"],
+    location: "The Kings palace",
+    author: "The Note Scholar Pheobe",
+    content: `<p class="heading"><span class=''>Session overview (aka the reveal of Hieronymous’ kinks)</span></p>
+    <p><span class='bold '>Party:</span> Artiti, Eldaril, Hieronymous, Oriande, Orthon, Tieron, Shay, Varic</p>
+    <p><span class='bold '>Key:</span> (?) means not sure on spelling. xx means number not heard and not written down.</p>
+    <p><span class='bold '>Characters downed:</span> 0 (not even Orthon. That’s character development)</p>
+    <p><span class='bold '>Character deaths:</span> 0</p>
+    <p><span class='bold '>Character status:</span> Artiti has finally freed himself from his stone prison. Belrim has disappeared into the night.</p>
+    <p><span class='bold '>Kill count:</span> Artiti, 1. Orthon, 1. Tieron, 2. Shay, 1.</p>
+    <p><span class='bold '>Heal count:</span> 0 (didn’t do any healing, what is this madness)</p>
+    <p><span class='bold '>Damage:</span> Artiti, 128. Eldaril ?? (I missed one of the numbers, so it’s not recorded accurately).</p>
+    <p class='noPad'>Hieronymous, 13. Oriande, 13. Orthon, 12. Tieron, 86. Shay, 20. Varic 19.</p>
+    <br/>
+    <p><span class='underline bold'>Chat outside the palace</span></p>
+    <p>Oriande insists that he needs to talk to everyone before they leave to go anywhere. We leave the palace and go to sit by the docks.</p>
+    <p>Oriande explains that a man called Wordbringer came from across the sea. He comes from a land where a cult called the Order of the Fire Sermon have killed off their world gods, and intend to come to our land and do the same. They’re small in numbers, and have no symbol to identify them with, but they have “devilmen” on their side, fiends who are somewhere between a demon and a devil. Oriande explains what his father tried to do, and points out that Artus Mallorn was afraid of this cult and the power they wielded, which puts Oriande on edge because he’s never seen his father afraid of anything. The Order of the Fire Sermon worship a deity called Dominion, which is a name that also doesn’t fill Oriande with confidence.</p>
+    <p>Hieronymous doesn’t want to talk about it much, but he explains why he has scars all over his face. He says he’s seen the creatures Oriande described. But he didn’t fight them, he ran.</p>
+    <p>Tieron thanks Oriande for having the courage to tell them. Oriande suggests that Greyscythe hinted that the He knows that the Admiral has been active for maybe 6 years.</p>
+    <p>Shay rolls a natural 20 on her perception check, and hears a muffled voice coming out of Orthon’s pack. Of course, it’s Princess Oliffe talking through the diadem. She has good news and bad news, so we ask for the bad news first. The bad news is that we have a month left before the apocalypse happens. Oriande and Hieronymous groan and lay down for a minute. Princess Oliffe tells us that the good news is that she knows where the ritual is going to take place; in the centre of the land should be a volcano, and that’s where they’ll be attempting their ritual.</p>
+
+    <p>[<span class='italics '>We’re going to MORDOR, LADS</span>]</p>
+    <p>Varic recognises the goliath’s tales of a great exploding stone (i.e. volcano). Princess Oliffe admits that it’s hard to keep continuing knowing she’ll fail, but Varic encourages her. When Shay asks about the Order of the Fire Sermon, and how other threats might affect the cycle, the princess suggests that things like the spawn of mlemfkngjkd might prove to be a problem. Apparently, we don’t hear</p>
+    <p>the word clearly. But Oriande hears this and knows that “spawn of mlemfkngjkd” usually means Ossith, the god of death. The one that Varic sold his soul to. So, slight problem.</p>
+    <p>Princess Oliffe asks us about what we’re like and about the people in our world.</p>
+    <p>With time ticking on, and with all information shared, the party get on their way.</p>
+    <br/>
+    <p><span class='underline bold'>Warping to Arris</span></p>
+    <p>We warp as per usual and arrive in Arris.</p>
+    <p>As we exit the warp node, we see a elf with big dark circles under his eyes, blonde hair. Princess Frissa had already sent word ahead, so there is a ship waiting etc. for us to travel with.</p>
+    <p>We decide time is of the essence, so we go quickly.</p>
+    <p>Tieron knows Arris well, and we follow him to the mariner’s guild. As he’s the only one who knows it, Tieron is the only one who notices that Arris has a very sour atmosphere at the moment – everyone looks very tired, the usual hustle and bustle is missing.</p>
+    <br/>
+    <p><span class='underline bold'>The Mariner’s Guild</span></p>
+    <p>We discover a huge, fort-like building standing on an outcrop of rock, waves crashing against the base. A large dock sits there as well. Oriande points out that it’s a very impressive building, but to Tieron it’s just home.</p>
+    <p>A storm is rolling across the sea, quite far away, but it does begin raining.</p>
+    <p>The gate is all completely shut up, the peephole closed. Varic knocks, hard. No response, until Shay calls out “Hello?” With a heavy sigh, a dwarf looks through the peephole.</p>
+    <p>This dwarf is Gedrin, and he recognises Tieron at once. He tells us that he can’t let us in because the acting guild master has closed the guild to everyone. It turns out the acting guild master is Dilain, Tieron’s old rival. It was never anything too serious or intense, just that Tieron was slightly more skilled that Dilain and it caused a little bit of grief.</p>
+    <p>Gedrin says that even though he doesn’t like the guild being closed off, it was done in response to a threat – The Admiral. They’re also afraid of a cult that have been plaguing Arris. Gatekeeper Marlon has been coming to the guild asking for help, the cult has been affecting people in town. So Dilain is afraid of both the Admiral, and the cult walking in.</p>
+    <p>[Note: <span class='italics '>Gatekeeper is a guard of a warp node, whilst gatekeeper with a lower case is a guard who works on a gate. Gatekeepers (capital G) work 12 hour shifts.</span>]</p>
+    <br/>
+    <p><span class='underline bold'>Back in town</span></p>
+    <p>We decide to go and talk to Marlon, as we can’t currently get into the guild. We ask Gedrin to pass on the message that we stopped by.</p>
+    <p>We hurry to the gate, and find Marlon, the blonde elf we saw before. Tieron introduces himself and asks what he knows about the cult. Marlon says that we must have noticed how tired everyone was</p>
+    <p>– the reason for this is because every time they go to sleep, the people of Arris have horrible nightmares. It’s taken its toll on the people.</p>
+    <p>He suggests that we go and speak to his girlfriend, Faydi, who can tell us more. She is in the Sapphire Scale, the inn.</p>
+    <br/>
+    <p><span class='underline bold'>The Sapphire Scale</span></p>
+    <p>It’s actually pretty nice; the inn is clean, the furniture’s nice, there’s a quiet buzz in here. One of the only two people who really stand out are the only woman in the room; human woman, dressed quite provocatively. The second is a blue dragonborn, the barkeeper. Tieron recognises him – his name is Gargram.</p>
+    <p>Tieron speaks to him, and Orthon introduces himself.</p>
+    <p>After we all sit down with drinks, Tieron has a quick scout of Faydi, confirming that she probably is who we’re looking for. Varic chooses to approach her, quietly asks what she knows about the cult.</p>
+    <p>Faydi calls Marlon a sweetheart (oof, friendzoned, sorry buddy), and says she’s not as bothered about the cult stuff as Marlon is. She suggests Varic talks to her in an empty booth, so they go and sit down. She tells him that she was allowed to attend a meeting.</p>
+    <p>When asked, she says she wasn’t really listening, something about being anti-world gods, and how Dominion would rule all. Tieron joins them, and casts suggestion. The meeting took place about a month ago, during the early morning. Apparently their sermon was focused mostly on their “work beneath the earth.” She said there weren’t many cult members, but there were two devil creatures with them that unnerved her. Describes one of the devils in detail. Pretty sure most information about meetings etc. is passed by word of mouth.</p>
+    <p>Tieron notices Gargram call Faydi over, ask her something, she answers, and he nods and goes back to what he was doing.</p>
+    <p>Varic and Tieron return to the table to relay all the information.</p>
+    <p>Tieron, Oriande and Shay decide to go for a walk around town, and on their way out of the inn they come across Marlon walking in. Oriande asks Marlon’s permission to cast Dispel Magic on him, to see if it alleviates the nightmares (Ori thinks it’s a curse that’s been put on the townspeople). Oriande rolls a nat 20 on his persuasion, so Marlon consents, and the spell is cast. Time will tell if it worked. The three of them carry on their walk after Marlon has a tiny bit of a breakdown and goes into the inn.</p>
+    <br/>
+    <p><span class='underline bold'>On the walk</span></p>
+    <p>Shay asks Tieron if there’s any smuggling or mining going on around town. There’s not really anything like that, most people go through the mariner’s guild for anything they want.</p>
+    <p>The storm that was coming in over the sea is now starting to ramp up. Tieron still feels pretty at home, despite the gloom in town at the moment.</p>
+    <p>The three of them go back to the tavern, regroup. Gargram rings the bell for last call.</p>
+    <br/>
+    <p><span class='underline bold'>After we’ve gone to bed</span></p>
+    <p>Shay’s dream: She’s back in Havertree and wakes up to the sound of screaming. People are running from flames, but she’s frozen in place.</p>
+    <p>Orthon’s dream: Stuck in a black void, unable to escape, cry out or move.</p>
+    <p>Tieron’s dream: He’s drowning. He’s unable to die though, his lungs filling with water.</p>
+    <p>Hieronymous’ dream: Returns to his past experience, looking back into the void where devils and demons meet, except this time something reaches out. Hieronymous manages to roll a 19 in his strength test, struggling violently. As tendrils wrap around his neck, he rolls a 5 in his second strength contest.</p>
+    <p>Which is lucky, because Oriande has to roll a strength contest, managing to get 17, and wakes up to Hieronymous strangling him. He manages to throw him off, backing up, coughing and wheezing. As soon as Hieronymous hits the ground he wakes up.</p>
+    <br/>
+    <p><span class='underline bold'>In the morning</span></p>
+    <p>Oriande asks what the hell just happened, and Hieronymous explains some of his nightmare.</p>
+    <p>Varic notices that Orthon doesn’t look very good in the morning, and he recounts some of his nightmare to him. Didn’t wake up strangling Varic though. He says he had a feeling of nothingness.</p>
+    <p>They all go downstairs, sharing their experiences, and Hieronymous nearly kills Oriande because of the suggestion that Hieronymous is twinkier than Oriande (which he is). Tieron suggests that Oriande switches rooms with someone else who can restrain Hieronymous if need be. Hieronymous suggests that Oriande could just tie him up to the bed if need be. Oriande is not entirely comfortable with the idea.</p>
+    <p>Varic asks the barkeep if there are any caves or mines nearby, and it’s suggested that there will be some along the beach, so the goliath sweeps out.</p>
+    <br/>
+    <p><span class='underline bold'>To the beach</span></p>
+    <p>On the way to the beach at the north, they pass the warp node, where Marlon is standing, and Oriande quickly asks how his night was. Marlon says he wishes that he could give some good news, but he still had nightmares. He thanks Oriande for trying to help though.</p>
+    <p>Orthon casts Divine Sense, and though he doesn’t feel anything around Marlon, he does sense something within Hieronymous. He pulls Hieronymous aside as they make their way to the beach, asking whether he’s had nightmares like that before. Hieronymous admits that he’s been trying to escape the feeling of the things from his past and is understandably horrified to think that this dark thing has been within him this whole time. Orthon offers him a willing ear whenever he needs.</p>
+    <br/>
+    <p><span class='underline bold'>Along the beach</span></p>
+    <p>On the way along the beach, the group don’t notice anything, but on the way back they see a gap in the cliffs. It’s about 9foot high and 5 foot wide. It’s wet, but we can enter.</p>
+    <br/>
+    <p><span class='underline bold'>In the cave</span></p>
+    <p>The water is rising to about waist height, so Shay is on Varic’s shoulder. The rock to our right is jutting out to about shoulder height as we keep walking, and the narrow cave begins to widen.</p>
+    <p>We reach the ledge, and Tieron climbs up. He manages to roll high on his stealth and perception, and sees five figures on the top. One of them is misshapen, but the rest seem to be humanoid. He relays the information back, and Orthon casts Divine Sense. He can tell the creature is a fiend. Also, Hieronymous is still a little bit fiendish.</p>
+    <p>Tieron casts xx and makes one of the torches blow out, distracting one of the guards. When the guard goes to relight it, Oriande casts thaumaturgy to put it out again. The guard leaves to go and get another torch, thinking it’s a dud.</p>
+    <p>The torch guy comes back, and Shay suggests we rush them because if we take them out, we can explore the rest of the cave. Tieron, Shay and Artiti attack first, because they’re the stealthiest. This means that all of the cultists are surprised and can’t act. We decide to capture the one with the red hood, and try and get information out of him.</p>
+    <p>Tieron casts lightning bolt, dealing 24 lightning damage to one of the men and the demon, and 12 damage to the man who managed to pass the saving throw. The two men who were hit immediately drop dead, but the demon is still standing.</p>
+    <p>Artiti activates his sharpshooter skill, aiming for the demon. He deals 56 damage total. The second shot pins the demon to the wall, and it falls limp.</p>
+    <p>Shay scrambles forwards, ducking behind cover and shoots at the last guard, dealing 20 piercing damage. The bolt slams straight into his forehead, and he drops to the ground dead.</p>
+    <p>Tieron casts chromatic orb, but the attack misses.</p>
+    <p>Only the man in the robe remains. He casts Conjure Elemental, which is a problem. He runs, leaving the elemental in the room to deal with us.</p>
+    <p>Artiti puts his hunter’s mark on the elemental, and uses his sniper shot. He deals 18 piercing damage. The head of the arrow goes in, but doesn’t do much more damage than that. He shoots again, but his second arrow misses.</p>
+    <p>Varic transforms into his bear form, lighting his glaive on fire. He takes 5 damage. He runs in to engage.</p>
+    <p>Orthon chases down the red hooded figure, and tries to use Hold Person, but it fails.</p>
+    <p>Oriande casts Shield of Faith on Varic, giving him +2 to his AC, and then uses Sacred Flame on the elemental, dealing 13 radiant damage.</p>
+    <p>Eldaril casts Flaming Sphere, which deals xx damage. It remains in place.</p>
+    <p>Hieronymous isn’t feeling too good about fighting the elemental. Varic glances over his shoulder, yelling at Hieronymous “I’ve got this!” So H uses Step of the Wind, sprinting past the elemental and chasing after the red hooded figure. He uses stunning strike on red hood, successfully stunning him and dealing 6 damage. He then hits him again, dealing 7 damage.</p>
+    <p>The elemental wildly flails at Varic, but misses. It takes 8 damage from Eldaril’s flaming sphere.</p>
+    <p>Shay shoots at the elemental, but the bolt misses. She shouts to Orthon, yelling “get it get it get it!” which will give Orthon advantage on his next attack.</p>
+    <p>Tieron turns to Oriande and Artiti, and saying “I’m gonna do something pretty big, but it’s going to be loud. Should I do it?” Oriande steps backwards, covering his ears. Tieron casts Thunder and deals 50 damage to the elemental.</p>
+    <p>Artiti steps forwards, aiming at the elemental. He deals 54 damage.</p>
+    <p>The elemental has chunks of it missing.</p>
+    <p>Varic takes a swing, dealing 19 damage, chopping off the remains of its ruined arm. It’s just about still standing. He takes another swing but his glaive just glances off of it.</p>
+    <p>Orthon steps forwards, slashing at the elemental, dealing 12 points of damage. The blade sinks into its chest, and it shatters apart.</p>
+    <p>Oriande misses a turn by accident.</p>
+    <p>Eldaril runs forwards, readying her bow in case the red hood tries to run.</p>
+    <p>Hieronymous grapples the stunned red hood, pinning him to the wall. He manages to put the manacles on the red hood.</p>`
+  },
+  {
+    name: "Session 12",
+    date: "8th March 2019",
+    party: ["TBC"],
+    location: "A cave in Arris",
     author: "James",
     content: `<p class="heading">Session has not  started</p>`
   }
