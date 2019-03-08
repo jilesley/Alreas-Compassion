@@ -584,7 +584,6 @@ const quest = [
     location: "The Kings palace",
     author: "The Note Scholar Pheobe",
     content: `<p class="heading"><span class=''>Session overview (aka the reveal of Hieronymous’ kinks)</span></p>
-    <p><span class='bold '>Party:</span> Artiti, Eldaril, Hieronymous, Oriande, Orthon, Tieron, Shay, Varic</p>
     <p><span class='bold '>Key:</span> (?) means not sure on spelling. xx means number not heard and not written down.</p>
     <p><span class='bold '>Characters downed:</span> 0 (not even Orthon. That’s character development)</p>
     <p><span class='bold '>Character deaths:</span> 0</p>
@@ -692,9 +691,105 @@ const quest = [
   {
     name: "Session 12",
     date: "8th March 2019",
+    party: ["Belrim Bennar", "Oriande Mallorn", "Orthon Anatole", "Shay Coulltree", "Tieron Malathrar", "Varic"],
+    location: "A cave in Arris",
+    author: "The Note Scholar Pheobe",
+    content: `<p class="heading"><span class=''>Session overview</span></p>
+    <p><span class='bold '>Key:</span> (?) means not sure on spelling. xx means number not heard and not written down.</p>
+    <p><span class='bold '>Characters downed:</span> Belrim (2) Orthon (1) Varic (1)</p>
+    <p><span class='bold '>Character deaths:</span> None somehow. It’s a miracle. Praise Olsinger.</p>
+    <p><span class='bold '>Character status:</span> Artiti, Eldaril and Hieronymous are guarding the entrance to the cave. Belrim has damaged his ankle, of all things, so he has disadvantage on his dex saving rolls next session.</p>
+    <p><span class='bold '>Kill count:</span> Belrim, 1. Oriande, 0. Orthon, 1. Tieron, 1. Shay, 2. Varic, 0.</p>
+    <p><span class='bold '>Heal count:</span> Oriande – 91 health points</p>
+    <p><span class='bold '>Damage:</span> Belrim – 22. Oriande – 20. Orthon – 87. Tieron - 107. Shay – can’t accurately record, missed numbers. Varic, 100. </p>
+    <br/>
+    <p class='underline bold'>Talking to the mage</p>
+    <p>Varic and Tieron scout ahead, and Oriande goes with them for fear of something bad happening. Meanwhile, Orthon casts Zone of Truth to begin interrogating the red cloak we captured in the last sesh.</p>
+    <p>Shay asks if he’ll yell for help if they remove the gag, he says no. He tells them that Wordbringer was up ahead. “He’ll be in one of the next chambers. Take the left.” Wordbringer had been teaching them about Dominion, and all the things to “good” things to come. But most of the time they just help him organise the cult meetings. He says Wordbringer would be able to tell us more.</p>
+    <p>Smol stabby Shay says that we can’t let him leave, and maybe it’s safer to kill him. A tiny bit scary.</p>
+    <p>It’s agreed that killing him off isn’t the best idea, just in case he knows how to lift the curse or has more valuable information etc. He’s sent to the mouth of the cave to hang with Hieronymous, Eldaril and Artiti.</p>
+    <br/>
+    <p class='underline bold'>Sneaky snek</p>
+    <p>Tieron scouts ahead, peeking around a corner, and sees nothing. Shay tries it too, because she’s the sneaky rogue. She keeps her eyes out for traps, even though the red cloak said there wasn’t any.</p>
+    <p>We discover a heavy door, and Shay rolls 23 on her perception check. She can hear echoing voices from within, but it’s hard to hear because the door is intense. If we can’t hear them, they can’t hear us. Tieron scouts further down the corridor and finds two slightly less heavy-duty doors further down. Tieron inspects one of the less sturdy doors. He has a peek through the keyhole but as he rolled a 6 in perception doesn’t see anything other than it’s got a light source in it.</p>
+    <p>Oriande has a peek in the middle door and sees it’s empty inside. Shay opens it and finds a kitchen/storage room.</p>
+    <p>Tieron continues exploring the corridor, whilst Shay checks the door he just left because she doesn’t trust his perception check. She knows the door is locked but doesn’t hear anyone inside. So she picks the lock.</p>
+    <p>Meanwhile, Orthon starts using Detect Magic to check all the doors.</p>
+    <p>Shay opens the door a little bit, seeing a load of crates, and continues to slowly open it. She discovers another storage room. There are two surfaces; one on the other side of the room is laden with metalwork, weapons etc. On the other is food, fruit and vegetables.</p>
+    <p>She investigates the table with weapons and armour on and finds a finely crafted silver short sword and a pair of leather bracers, with an arrowhead on them. Orthon detects magic on them. Shay wonders whether she should put them on, but Varic and Orthon advise against it, knowing that last time this happened, the item was cursed. She puts them in her bag. Belrim takes the silver sword. Shay also checks the crates, but they’re all empty.</p>
+    <p>Tieron checks another door in the corridor, listens through the keyhole. He doesn’t hear anything and tries the door to see if it’s locked. It’s not, and it’s empty. There are five seats around a circular table and appears to be a meeting room. Seeing that there’s currently no-one here, he goes to the room opposite and listens in the keyhole. He can’t hear anything, and the door is locked, so he goes to get Shay. An idea strikes him and he runs back to the door, hoping to use water. But the cave is dry. So he goes to get Shay.</p>
+    <p>She picks the lock. The room is a bedroom, quite nicely furnished. Orthon points out what Varic said earlier, that we’re wasting time. Tieron asks “Who do you think you are?” Orthon leaves in silence. Tieron discovers papers, but thinks he’d have to take them with him and have a look at them later.</p>
+    <p>We finally go back to the heavy-duty door, and Shay tries to unlock it. She can’t seem to achieve it, as if it’s not actually locked. Orthon says it’s best to burst in and surprise them. Belrim points out, “I think they probably know we’re coming.” Varic changes into his bear form.</p>
+    <p>Shay says, “The cultist did say if we go and just speak to Wordbringer, then he’ll be sympathetic to our cause at least for a little while.”</p>
+    <p>Varic growls, “Then let’s go ask.”</p>
+    <br/>
+    <p class='underline bold'>In the chamber</p>
+    <p>The room is quite cosy, a furnace is pumping out head. There are four figures in the room standing around a symbol on the floor, but only one of them reacts to our presence. He’s humanoid, wearing a black leather outfit that exposes part of his chest, and he has dark red skin, yellow eyes, black hair, four horns, and a lizard tail.</p>
+    <p>He doesn’t seem to be surprised by our presence at all. “Ah, our visitors. There seems to be a misunderstanding.”</p>
+    <p>We cautiously enter the room.</p>
+    <p>“Would you close the door? You’re letting the heat out.” Orthon considers closing the door, until Varic (ooc) reminds us that this is a literal demon and we’re just sort of going with it. Nobody moves, we’re all a bit bamboozled. Varic asks if he is indeed Wordbringer, which he confirms. He says that he’s a tiefling when Tieron asks.</p>
+    <p>He seems a little surprised that we know who he is, but says he knows who we are. He knows we’re looking for the relics. Shay asks if we’d be able to buy the relic from him or trade for it. Wordbringer is pleased by her question, saying he is willing to trade. He says that we’re a threat to what he and the Admiral are trying to achieve (bringing instability to Elmond), so he will happily hand us the relic if we cooperate.</p>
+    <p>Tieron asks why we would help them. Wordbringer explains that where he comes from, his life is much different. We cower behind walls, our cities are miles apart, our traders cannot travel in winter. Meanwhile in his world, there are no walls, they don’t have to teleport everywhere. Aphilis (?). Now, Wordbringer and the Order of the Burning Sermon will bring their way of life to our world.</p>
+    <p>Varic is a bit tired of this shit. He runs his hand over his glaive, setting it on fire. Wordbringer is not impressed, pointing out that we can slay him, but it will not stop him, and we will not leave alive if we do.</p>
+    <p>Oriande isn’t interested in this nonsense either, he just asks what Wordbringer is doing to the town. Wordbringer is genuinely surprised by this. He says he genuinely thought that his magical abilities wouldn’t affect the town, he thought he was far enough away from it. He has powerful conjuration magic, and sometimes this can have ripple affects to the area around him.</p>
+    <p>Varic points his glaive at Wordbringer, saying he can either come with us peacefully and continue the conversation with the people we’re working with, or Wordbringer can taste his blade. Wordbringer is pissed. We can either accept and receive the relic for free, or die.</p>
+    <p>Varic taunts him in infernal, before Orthon or Oriande can stop him, and Wordbringer attacks. We’re probably fucked now.</p>
+    <br/>
+    <p class='underline bold'>Fighting Wordbringer</p>
+    <p><span class='underline'>Enemies:</span> Red cultist, blue cultist, green cultist, blue gargoyle, red gargoyle, Wordbringer</p>
+    <p>Before the battle begins, the two gargoyles have started turning leathery, growing claws and horns.</p>
+    <p>Varic takes two steps forward, attacking twice with his glaive on the closest cultist, red cultist. His first attack misses, but the second does, dealing 11 points of slashing damage. He then strikes with the end of his glaive, dealing 9 points of damage. He then meets Wordbringer’s gaze and snarls, “I’m coming” in infernal, which was of course immediately taken the wrong way by the party.</p>
+    <p>Shay is next, darting to her right and shooting at the cultist Varic attacked. Her bolt hits, dealing 17 damage. It hits him straight in the belly, crumpling in a puddle of blood. She takes her second shot at the blue cultist, dealing 6 points of damage.</p>
+    <p>Oriande runs forwards, casting Shield of Faith on Varic whilst reminding him “This was a terrible idea!” and then casts Sacred Flame on the blue cultist. It deals 9 points of radiant damage. The cultist freaks out as his arm catches fire.</p>
+    <p>Wordbringer steps forwards and tells Varic to “burn in hell” and casts Wall of Fire. A huge wall of flame appears directly behind Varic, cutting him off from the rest of the group. Varic is the only one on the other side, and none of the party can see through it.</p>
+    <p>Tieron, as he can’t see Varic or our enemies anymore, steps to his left and casts Haste on Orthon and Shay.</p>
+    <p>The blue cultist steps forwards and casts Inflict Wounds on Varic. He decides to take it like a champ but ends up taking 32 necrotic damage. Varic uses his Stone’s Endurance to resist that and reduce its effect. He reduces it by 14, so it deals 18 damage. Orthon hears Varic in pain and channels divinity to rebuke the violence. The cultist that injured Varic now receives damage.</p>
+    <p>The green cultist tries to use Hold Person on Varic, but fails.</p>
+    <p>Belrim doesn’t give a fuck about the fire, so he leaps through the wall of flame and takes 26 fire damage. He casts Layman’s Hut, intending to drop a dome over himself and Varic to save them from magic attacks and cut off the fire, but it takes a minute to cast. So instead, he runs and attacks the blue cultist, slicing straight through his leg. The cultist drops to the ground and passes out immediately.</p>
+    <p>Orthon leaps through the flames with the help of his haste, and swings at the green cultist. He deals 14 damage. He attacks again and deals 8 damage. Orthon rolls again and gets a nat 20, so when he adds his smite to it he deals 30 damage, slicing him straight down the middle. The cultist is completely reduced to ash.</p>
+    <p>The red gargoyle darts towards Orthon, and a spear appears in its hands. It’s very obvious a hellish creature. It jabs at him a couple of times, the first attack missing and the second deals 14 piercing damage.</p>
+    <p>The blue gargoyle lunges for Belrim, and casts Weakening Gaze. Belrim fails his save, so now he can only deal half damage with any attacks using strength. He then does two spear attacks, dealing first 12 damage, and then does 6 damage. Belrim goes down.</p>
+    <p>Varic steps over Belrim, attacking the blue gargoyle that just took his dwarf buddy down. He attacks, dealing 16 points of damage. He looks directly at Wordbringer, and snarls “Suffer as I have”. He then casts Blood Curse of Mutual Suffering (the edgy bastard). He takes 1 point of damage.</p>
+    <p>Shay moves to where she remembers where Wordbringer will be, and shoots in his direction.</p>
+    <p>Oriande steps forwards, casting Dispel Magic on the wall of fire. It bends in on itself and disappears into nothing. He then darts forwards and using Spare the Dying on Belrim.</p>
+    <p>Wordbringer works out who’s healing everyone and aims a hand at Oriande, but luckily Oriande rolls a 17 on his charisma saving throw (so proud of my boy) and isn’t affected.</p>
+    <p>Tieron steps up next to Oriande, casting Frostbolt at Wordbringer. He deals 5 damage.</p>
+    <p>Belrim has been stabilised thanks to Oriande, but he’s still unconscious.</p>
+    <p>Orthon attacks the red gargoyle, dealing 18 damage. But, the creature is a fiend, so he also does xx damage.</p>
+    <p>The red gargoyle fights back, casting Heat Metal on Orthon’s sword. It deals 10 fire damage to Orthon. He fails his con saving throw, dropping his sword because of the heat.</p>
+    <p>The blue gargoyle casts Weakening Gaze on Varic, but he saves and isn’t affected. The gargoyle throws his spear on the ground and slashes at Varic. Varic is looking pretty wounded.</p>
+    <p>Varic attacks the gargoyle, dealing 26 damage total. The attacks are hitting, doing some damage, but it doesn’t seem to be going down.</p>
+    <p>Shay runs towards Varic and Belrim, and shoots at the blue gargoyle. She misses the first shot, but her second shot deals 23 piercing damage. She then darts out of the room, hiding around the corner.</p>
+    <p>Oriande moves to his right to give Tieron a clear line of sight to Wordbringer, as he was upset by that earlier, and then casts Mass Healing Word on Varic, Orthon, Belrim and Tieron with 12 health points. He then casts Sacred Flame on the blue gargoyle and deals 11 damage.</p>
+    <p>Wordbringer sees this and stays with his original strategy, aiming his hand at Oriande. But once again, my boy succeeds in his saving throw.</p>
+    <p>Tieron casts Chromatic Orb on Wordbringer, dealing 12 lightning damage.</p>
+    <p>Belrim’s alive! He finds himself between Varic’s legs, because the goliath was protecting him, so he crawls to the side and slashes at the blue gargoyle. He deals 8 damage. He then beats on his drum, the sickest beat we’ve ever heard, giving Oriande Bardic Inspiration.</p>
+    <p>Orthon doesn’t have a sword, but he decides to deliver a holy punch the red gargoyle, dealing 17 radiant damage. His gauntlet glows as he uppercuts the gargoyle. He has two punches left, but his first bounces off harmlessly. He then steps to his right, attempting to grapple the blue gargoyle. He doesn’t succeed.</p>
+    <p>The red gargoyle comes up behind Orthon, taking two jabs at the paladin. The first one doesn’t do anything, but his second jab does 11 piercing damage.</p>
+    <p>The blue gargoyle slashes at Orthon, but misses. The second is aimed at Varic, but misses again.</p>
+    <p>Varic attacks the blue gargoyle, dealing 9 damage. His second attack deals 17 points of damage. He then strikes with the other end of his glaive, dealing 12 damage. The gargoyle looks pretty wounded.</p>
+    <p>Shay leaps from cover, shooting at the red gargoyle. Her first shot misses, but her second hits, and deals xx damage. It goes down. She then screams encouraging words at Orthon, “Use your speed! Use your speed! You’re super fast! Get him!” Bonus action hide (behind a wall).</p>
+    <p>Oriande steps forwards and places his hand on Varic’s back, using Cure Wounds to give him 11 points of health. He then tries to cast Sacred Flame on the blue gargoyle, but he misses.</p>
+    <p>Wordbringer gives up directly targeting Oriande, hitting a spot between the group. A dark pillar of hellfire spouts out of the ground, and we have to make a dex saving throw. Everyone who failed takes 18 fire damage and 9 necrotic damage. Everyone who saved above it takes half. Belrim and Orthon go down.</p>
+    <p>Tieron deals 42 lightning damage on Wordbringer. He’s looking shocked and just barely manages to stay standing.</p>
+    <p>Belrim rolls to stay alive. He succeeds.</p>
+    <p>Orthon rolls to stay alive. He succeeds.</p>
+    <p>The red gargoyle slashes at Varic, and he goes unconscious.</p>
+    <p>The blue gargoyle lunges for Oriande, dealing 7 slashing damage.</p>
+    <p>Varic rolls to stay alive. He succeeds.</p>
+    <p>Shay sprints back into the room. She shoots at the red gargoyle, killing it instantly. Her second shot is aimed at the blue gargoyle, and she misses. Bonus action hide.</p>
+    <p>Oriande holds up his holy symbol, casting channel divinity on Varic, Orthon and Belrim. Varic regains 9 hp, whilst Orthon and Belrim regain 8 hp. He then casts Healing Word on himself, regaining 7 hp.</p>
+    <p>Wordbringer casts Eldritch Blast on Oriande, dealing 7 force damage. So the healing was a wasted spell slot. Cool.</p>
+    <p>Tieron aims at the blue gargoyle, but misses. Then he aims at Wordbringer, casting Chromatic Orb and dealing 27 cold damage. Wordbringer looks down at his bleeding chest, then looks up directly at Tieron (as he cast the killing blow). He then says “And may that be the last thing you ever do.” The room is plunged into darkness, and the floor begins to shake.</p>
+    <p class='italics'>DUN DUN DUN cliffhanger ending</p>`
+  },
+  {
+    name: "Session 13",
+    date: "TBC",
     party: ["TBC"],
     location: "A cave in Arris",
     author: "James",
-    content: `<p class="heading">Session has not  started</p>`
+    content: `<p class="heading">Not yet started</p>`
   }
+
 ];

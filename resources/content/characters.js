@@ -16,7 +16,7 @@ const characters = {
       race: "Dwarf",
       class: "Bard",
       level: 5,
-      kills: 0,
+      kills: 1,
       img: "https://media-waterdeep.cursecdn.com/avatars/thumbnails/10/71/60/60/636339380148524382.png",
       content: `<h2>Content to be added</h2>`
     },
@@ -56,7 +56,7 @@ const characters = {
       race: "Dragonborn",
       class: "Paladin",
       level: 5,
-      kills: 10,
+      kills: 11,
       img: "https://media-waterdeep.cursecdn.com/avatars/thumbnails/17/407/60/60/636377883694580108.jpeg",
       content: `<p>A black, horned dragonborn who stands at 6 feet tall. He has emerald green eyes that peek out from his dark scaled head. He wears well maintained silver chain mail armour, which has gold highlights and the holy symbol of <span class='bold '>Uxen</span> in the center. He also wields a shield with the same holy symbol embraised onto it, as well as a simple mace in his right hand.</p>
       <p>He will often try to avoid violence whenever he can, but understands that it is at times the only way for though who are too far gone down the path of evil.</p>
@@ -68,7 +68,7 @@ const characters = {
       race: "Gnome",
       class: "Rogue",
       level: 5,
-      kills: 8,
+      kills: 10,
       img: "https://media-waterdeep.cursecdn.com/avatars/thumbnails/18/22/60/60/636378979102191003.jpeg",
       content: `<h2>Content to be added</h2>`
     },
@@ -78,7 +78,7 @@ const characters = {
       race: "Half-Elf",
       class: "Sorcerer",
       level: 5,
-      kills: 16,
+      kills: 17,
       img: "https://media-waterdeep.cursecdn.com/avatars/thumbnails/17/932/60/60/636378855806248172.png",
       content: `<h2>Content to be added</h2>`
     },
