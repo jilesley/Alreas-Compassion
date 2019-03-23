@@ -785,9 +785,103 @@ const quest = [
   },
   {
     name: "Session 13",
-    date: "TBC",
+    date: "22nd March 2019",
+    party: ["Eldaril Bulantook", "Hieronymous Botch", "Oriande Mallorn", "Orthon Anatole", "Tieron Malathrar", "Varic"],
+    location: "Darkness... then on a beach",
+    author: "The Note Scholar Pheobe",
+    content: `<p class="heading"><span class=''>Session overview</span></p>
+    <p><span class='bold '>Key:</span> (?) means not sure of spelling. xx means numbers not heard and not written down</p>
+    <p><span class='bold '>Characters downed:</span> 0</p>
+    <p><span class='bold '>Character deaths:</span> 0</p>
+    <p><span class='bold '>Character status:</span> Hieronymous is possessed, lads. Shit.</p>
+    <p><span class='bold '>Kill count:</span> 0</p>
+    <p><span class='bold '>Heal count:</span> Oriande – 17hp to three people apiece.</p>
+    <p><span class='bold '>Damage:</span> 0</p>
+    <br/>
+    <p><span class='bold underline '>In the darkness... briefly</span></p>
+    <p>We are all unconscious, but Hieronymous is the first to wake. He finds his clothes soaking wet, and he’s lying on wet sand. He sees that we’re not on a beach, the tide going out, and everyone else is passed out around him. We’re all just sort of scattered randomly.</p>
+    <p>Hieronymous goes over to the nearest person, which is Orthon. He checks that he’s breathing, then wakes him up. Orthon explains everything that Hieronymous missed. Orthon finds his sword back in his sheath on his hip, despite dropping it in the cave during the fight.</p>
+    <p>The two of them go around waking everyone up.</p>
+    <p>The cultist we captured is gone.</p>
+    <br/>
+    <p><span class='bold underline '>On the beach</span></p>
+    <p>Tieron notes that the tide was going out when we got to the cave, and now it’s going out again. He uses this to try to judge how long we’ve been in the cave, but tides are unpredictable (because in D&D it be like that) so he’s not sure.</p>
+    <p>Hieronymous checks for footprints, but there’s no indication of us being carried out. It’s as if we just appeared on the beach. When Varic tries to look for the cave mouth, he finds where it should be, but there isn’t a cave entrance. Tieron asks if everyone had the same experience; Wordbringer dies, and we get plunged into darkness. We all did.</p>
+    <p>Orthon casts Detect Fiend, and still gets the fiendish vibe from Hieronymous. It’s apparently a little bit brighter now.</p>
+    <p>He gets out the tiara, asking if Princess Oliffe how long ago we last spoke to her. It should have been two days. She says it’s been five. So... Dun dun dun.</p>
+    <p>Tieron asks Hieronymous how he’s feeling, because he looks very tired. Varic rolls an insight check to see how the monk is doing; Hieronymous isn’t doing good, in the sense that he seems to have a lot going on, but he doesn’t want to talk about it.</p>
+    <p>Tieron decides to go and have an explore of the beach and the cliffs. From what he last remembers, he finds that everything is as it was. Nothing has changed, nothing in the area jumps out as being out of the ordinary.</p>
+    <p>Eldaril decides to investigate the mouth of the cave, or where it once was. Like Varic, she can’t find it, it’s just not there anymore. She can’t tell if it’s caved in (pardon the pun), or if it’s been covered over. She doesn’t see anything weird.</p>
+    <p>Hieronymous really wants to leave. Oriande wants to go back to the town, check on the people there. Varic agrees that the beach is pointless. Tieron tries to roll an arcana check to see if he knows anything about illusions, but it turns out he knows “fucking nothing.”</p>
+    <p>Orthon pulls Hieronymous to one side as we head back to the town, to let the panicking man know that he detected even more fiendish energy from him. Because why not freak him out even more, right? Hieronymous does some heavy breathing, then controls himself and thanks him. Orthon suggests going to talk to someone about it, which Hieronymous thinks is a good idea.</p>
+    <br/>
+    <p><span class='bold underline '>Back in Arris Village</span></p>
+    <p>When we walk in through the gate, we can see that things have changed. There’s a lot more people out and about, some more shops are open, and it seems busier. Marlon is on duty at the warp node.</p>
+    <p>We approach Marlon. He’s minding his own business, and is surprised to see us. Tieron asks if he’s feeling better, and Marlon confirms that he’s much better. “I don’t know what you guys did, but thank you for taking me seriously.” Tieron asks how long ago his nightmares stopped, and Marlon says it was three days ago. This confirms we were unconscious for three days, so yikes. Tieron suggests that he keeps an eye out for cultists. Marlon thanks us again.</p>
+    <p>We head to the tavern, The Sapphire Scale (Note for Future Calum: Call one of your taverns The Long Rest).</p>
+    <p>Hieronymous pulls Tieron to one side, asking how Tieron knew Marlon. That’s suspicious af, because Hieronymous was here with us before when we met Marlon. So Tierons rolls a 19 on his insight, and the monk confesses he’s just feeling a bit fuzzy at the moment.</p>
+    <br/>
+    <p><span class='bold underline '>Inside the Sapphire Scale</span></p>
+    <p>The only person inside that we find familiar is Gargrim(?), the bartender. Eldaril skips over to him, asking for food and drink, and he says it’s on the house once he recognises us, as thanks for saving the town from the nightmares.</p>
+    <p>Tieron asks Hieronymous what the problem was with Marlon earlier. Hieronymous doesn’t remember meeting Marlon, and he doesn’t remember strangling Oriande in the midst of his nightmare. Eldaril ritual casts Detect Magic, and Oriande ritual casts Prayer of Healing over everyone. Meanwhile, Tieron keeps investigating, asking what Hieronymous remembers. He doesn’t remember people, it’s like his memories are all disjointed. Tieron does an arcana check to try and figure out why Hieronymous’ memory is a bit squiffy.</p>
+    <p>Gargrim brings all the food over, telling us to enjoy it because the rest won’t be free. He then gives Orthon a heart slap on the back, asking whether he’s from the dragon lands. Wants to know whether</p>
+    <p>Orthon’s parents know that he’s a paladin etc. Orthon admits he doesn’t know his parents. He gives Gargrim a gold piece, asking for another round, and Gargrim tells him to not take the whole not- knowing-parents thing seriously.</p>
+    <p>As ten minutes has now passed, and the ritual is complete, Varic, Orthon and Oriande all regain 17 points of health.</p>
+    <p>Tieron takes Oriande and Orthon to the side, asking if they know anything about curses etc. Orthon has removed curses from objects, but never a person. Oriande focuses on physical ailments, so he has never tried to exorcise a curse from someone before, other than the occasional Dispel Magic. Without having a clear direction, they’re not sure how to proceed with dealing with Hieronymous’ issues.</p>
+    <p>Varic looks deep into Hieronymous’ eyes and tells him he will help him to fight his demons.</p>
+    <p>They sit down to eat, because they’re all starving. Varic suggests we all get some sleep, because most of us are knackered. Tieron and Eldaril are less tired, so the two of them decide to head to the Mariner’s Guild to make sure they have a vessel ready for the morning. The rest of us crash at the tavern.</p>
+    <br/>
+    <p><span class='bold underline '>On the way to the Mariner’s Guild</span></p>
+    <p>Eldaril insists on shopping and skips into the bookshop. Tieron begrudgingly follows behind. There are bookshelves all over the place, and the shop owner (an elderly gentleman) looks up as they enter.</p>
+    <p>Eldaril asks if there’s any books on possessions or “evilly people”. Tieron catches on to what she’s doing and asks for wider topics such as curses and removal of curses. They’re looking for scholarly texts. Tieron browses whilst the shopkeep has a look for the texts they’ve asked for. Eldaril has a poke around but doesn’t find anything weird.</p>
+    <p>The only odd thing they find is a book penned by nobody, but it’s about alchemy. It’s about turning one metal into another kind. Eldaril is interested.</p>
+    <p>Tieron looks around for any books of the geography of the area, to see if there’s anything about volcanoes etc. He has a brief skim through a book he finds, which is about the lay of the land, so he decides he’s going to buy it.</p>
+    <p>The shopkeep says he only has a couple of texts, such as the work of Meredith Saps(?) (Couldn’t hear it properly). Eldaril, despite living in a forest, has heard of her, and knows that she’s essentially a demonologist. The shopkeep explains that she has written about possessions etc, and has a copy of the book with the chapter on possessions/curses in it.</p>
+    <p>[We did some accidental meta gaming here, because Tieron and Eldaril don’t actually know anything about the curses and Hieronymous’ fiendish energy, so oopsie]</p>
+    <p>The books will cost 60 gold for all three of them. This is the moment where we realise that Tieron doesn’t have any gold, because he wasn’t part of the arena team and wasn’t there when we divvied up the cash.</p>
+    <br/>
+    <p><span class='bold underline '>At the Mariner’s Guild</span></p>
+    <p>The party of two finally arrive after their five-hour shopping spree. They find the gate shut, so Tieron knocks on the small door in the wooden gate.</p>
+    <p>Tieron recognises Gedrin(?) at the gate and is pleased to see him. Tieron tells him that the cult has been dealt with. Gedrin lets them enter. He’s got his recognisable-and-not-very-practical artificial hands.</p>
+    <p>Tieron decides he probably should speak to Acting Guild Master Dilane(?) although he doesn’t really want to. Gedrin says he’ll take them to the Acting Guild Master, even though he knows Tieron knows the way, as a kind of courtesy thing. Tieron asks if Dilane has changed at all, and Gedrin admits that to his surprise, Dilane is actually doing pretty well. Most likely because he’s got what he wants. But also because there’s barely any trained Mariners at the moment, and there’s limited staff on-hand. Gedrin names a couple of people that the Mariner’s Guild have lost to the Admiral’s people.</p>
+    <p>Tieron says that he hopes that he will eventually be able to go back to the Guild. But with an apocalypse on the way, who even knows. “We never know which way the wind will blow”. That’s some sage Mariner shit right there, Tieron.</p>
+    <p>They arrive at the Guild Master’s office. Gedrin opens the door after knocking with his unwieldy mecha hands, and the pair find a man sitting at the desk. He has green eyes, dark brown hair, and is wearing his red Mariner’s coat. He has resting bitch face, but he looks a bit sheepish when he sees Tieron.</p>
+    <p>He says it’s good to see Tieron, who replies in kind. Dilane notes that he thought there were more of us, but it’s just idle curiosity. He then says that now that we’ve dealt with the cult, the Mariner’s Guild can open their gates without getting a surprise attack. He hopes that our group of misfits can help them deal with the Admiral. Tieron warns that even though we’re not expecting anything else to happen, they should probably have someone keeping an eye on the stretch of beach.</p>
+    <p>Dilane has received a note from the royal family, commenting that Tieron has acquired friends in high places. As such, he’s prepared a ship and a crew, but he only has ten members present that can provide any benefit. He asks if our group are capable fighters, which Tieron confirms. He then says he will have everything ready if Tieron gives them another day to prepare.</p>
+    <p>Despite their previous rivalry, the two of them part on good terms. Eldaril thanks him for his assistance as well. As they’re leaving, Gedrin jokes about the meeting being brief. Tieron says “the shorter the better, really.”</p>
+    <p>On the way out, Tieron and Gedrin are joking, and Eldaril decides to try and seduce Gedrin into giving her the rum. She rolls a 1. It’s awkward as fuck. The two spend the rest of the walk in silence.</p>
+    <br/>
+    <p><span class='bold underline '>Back at the tavern</span></p>
+    <p>Oriande immediately notices the books that Tieron and Eldaril carry and perks up. They explain the books’ contents. Eldaril gives the book on demons to Orthon.</p>
+    <p>Meanwhile, Varic has been keeping an eye on Hieronymous. He’s not completely restful, but he’s asleep.</p>
+    <p>Orthon pulls Tieron to the side, telling him about his ability to sense fiends and such through his paladin powers. He explains that he’s noticed the strange fiend vibes that he’s been getting from Hieronymous since we’ve been in the town. Tieron says he’s noticed that the two of them have been speaking separately from the group. Orthon says that he doesn’t think Hieronymous remembers what Orthon told him before. Tieron asks if Orthon knows anything more about Hieronymous himself as an individual, to try and work out what might have happened to cause this, but Orthon doesn’t know much more than Tieron does. They do point out that Varic probably knows him best.</p>
+    <p>Tieron suggests that Orthon should just ask him. They agree that it’s best to deal with it in the morning. Tieron does hint that he can just use Suggestion on Hieronymous.</p>
+    <p>Orthon asks if Oriande knows anything specific about fiends, but Oriande hasn’t researched that in particular, because he was focused on the physical ailments etc, and didn’t need to read into it more specifically. Eldaril also doesn’t know anything about demons. However, Oriande says he can finish the book written by Meredith Saps quite quickly, so Orthon gives it to him.</p>
+    <p>Tieron reads his geography book and finds a section on the Glass Peaks. The author doesn’t think they’re volcanic, but does note that there is hot rock and caves etc. He then goes upstairs to try and find Varic to talk about what he’s found. Tieron tells him that even though there’s magma in the mountains, they don’t erupt. He asks if Varic remembers anything like that. Varic confirms that there are stories of the Glass Peaks containing rivers of fire. Varic asks what he seeks to gain from the books, and Tieron says that any information of the mountains that they might need is worth researching.</p>
+    <p>Varic explains a bit about his tribe, and how Seeing is important amongst his people. To be seen as your true self. Thumkallah, the name of Varic’s tribe, means ‘Seen by Frost’. The idea of being ‘seen’ is an honour to a Thumkallah. This is not seeing in a literal sense but more an appreciation and true understanding of an individual’s true character and inner fire (their ignas-thum). Although Goliaths don’t tend to venerate the gods (they respect nature as an honoured foe and those who earn respect) they do hold to a belief that those who take the Kallah-Vun (Long Sight or ‘seeing’) honour the living by ‘seeing’ the members of the tribe from the peaks above and, to a lesser extent, all races as they dwell below the Glass Peaks. The KAllah-Vun involves a Goliathwho thinks they can no longer help the tribe, leaving all but their most personal belongings and marching to the higher reaches of the peaks. Once they reach a spot that they believe will grant them the best view they kneel or sit and remain there until they expire in the cold. Their stony complexion along with the frost makes them appear like watchers carved the rock of the peak itself. He says he thought he was starting to See Hieronymous, but everything’s confused, and he can’t clearly see what’s happening with the monk.</p>
+    <p>Oriande has been reading the book on demons. He notices a footnote in one of the chapters, about demons and possession. He’s now thoroughly convinced that Hieronymous has been possessed by something. He explains how it works to the rest of the group, including Varic who he asked to be called down.</p>
+    <p>Oriande then tells Varic to bring Hieronymous down to discuss it, as he should probably have a say in what happens.</p>
+    <p>Oriande explains to the group that there are three options to deal with the demon, either killing Hieronymous (which Oriande makes very clear that he doesn’t see as an option) or performing an exorcism. There are two kinds, one which involves a magical exorcism, and one that involves making a bargain with a devil. Both of them come with great risk.</p>
+    <p>Tieron points out to Hieronymous that perhaps us knowing what might have caused it, we can help to combat it.</p>
+    <p>Hieronymous draws closer for dramatic effect.</p>
+    <br/>
+    <p><span class='bold underline '>HERE WE GO LADS IT’S HIERONYMOUS LORE TIME</span></p>
+    <p>He explains that he was part of a monastic order that worshipped Mathi(?), the Goddess of Fire. They lived in a monastery that was built into the mountainside. Hieronymous’ master, Xandros (?), didn’t really connect with any of the apprentices, and seemed to be doing some shifty shit in the background. One day, Xandros called all the monks together, and announced that he’d found some sacred texts relating to an invocation ritual, which would help them all understand Mathi and get closer to her grace. Over weeks and months, they prepared for this litany, whilst Xandros painted sigils all over the monastery. Hieronymous is clearly haunted when he talks about the room that the ritual markings were placed. Xandros then taught the monks to say the words for the litany, and singled out Hieronymous as the person who would say the final chant.</p>
+    <p>Hieronymous was feeling a bit uneasy about this after a while, and one day sees Xandros looking pretty creepy as he read his grimoire.</p>
+    <p>The day came, and the monks all began to chant. As they did so, they felt a heat begin to rise from the centre of the room. Hieronymous was frozen with fear, and actually stopped chanting. Xandros noticed immediately and looked at Hieronymous with hatred. Hieronymous began to see things in the fringes of his vision, and they arrived. He can’t describe them accurately but calls them “pure evil”. Flames poured from the pit in the middle of the room, burning the side of Hieronymous’ face as he turned away, whilst the rest of the monks burned. When he came to, Xandros was gone.</p>
+    <p>Since then, Hieronymous has been running from what happened, but felt like he was being followed by something. He admits that he doesn’t really know what to do.</p>
+    <p>Orthon asks (in abyssal) whether Hieronymous understands what he’s saying. Hieronymous does, and is visibly affected by hearing the language again.</p>
+    <p>Varic points out that Oriande has already said there are three ways of dealing with this issue. He asks the cleric if there’s a way to kill the demon once it’s been dispelled from the body. Oriande explains that the book details that the demon will try to jump to a new host if they’re dispelled. If they’re banished, we run the risk of banishing Hieronymous’ spirit with it. Both don’t seem ideal to Oriande, but there is potential for killing the demon if they’re quick enough, maybe?</p>
+    <p>They’re not sure. The group decides that, as Oriande says they can’t know how long this possession has been going on, and he thinks Hieronymous is in the last few stages of his possession, they have to deal with this quickly. We decide to send a message to the Mariner’s Guild to tell them to hold the boat, whilst we take Hieronymous back to the capital to ask for help with someone better equipped to deal with exorcisms.</p>
+    <p>Tieron runs over to Marlon’s house to give him the message. Marlon was asleep, but Westley is on duty, so Tieron runs over to him instead. He gives him the message for Westley to pass on to Marlon to pass on to the Mariner’s Guild. This is a very convoluted way to do this. But that’s D&D for you. Tieron scribbles a note, addressing it to Gedrin, and gives it to Westley. Then he scampers back to the tavern.</p>
+    <p>We regroup, and step through the warp node to the capital.</p>
+    <p>And that’s the end of the sesh, because Calum needs to do some prep.</p>`
+  },
+  {
+    name: "Session 14",
+    date: "5th April 2019",
     party: ["TBC"],
-    location: "A cave in Arris",
+    location: "Warp node in the capital",
     author: "James",
     content: `<p class="heading">Not yet started</p>`
   }
