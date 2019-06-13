@@ -21,7 +21,7 @@ const locations = [
   },
   {
     name: "Arris",
-    curLocation: false,
+    curLocation: true,
     content: `<p>Sat atop a rocky outcrop on the edge of the Great Bay, it is known for producing the toughest sailors in the land at the Marine’s Guild. Some say that sailors from the guild are even capable of sailing in winter.</p>`
   },
   {
@@ -86,7 +86,7 @@ const locations = [
   },
   {
     name: "Hotsapech",
-    curLocation: true,
+    curLocation: false,
     content: `<p class="heading">LARGER DESCRIPTION, WILL UPDATE</p>`
   },
   {

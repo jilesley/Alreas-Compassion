@@ -880,9 +880,254 @@ const quest = [
   {
     name: "Session 14",
     date: "5th April 2019",
-    party: ["TBC"],
+    party: ["Belrim", "Eldaril", "Hieronymous", "Oriande", "Orthon", "Tieron", "Shay", "Varic"],
     location: "Warp node in the capital",
-    author: "James",
+    author: "Pheobe",
+    content: `<p class="heading"><span class=''>Session Overview (aka “Can we have an exorcism?” “No, you can’t afford it.” “Understandable, have a nice day.”)</span></p>
+    <p><span class='bold '>Key:</span> (?) means not sure on spelling. xx means number not heard and not written down.</p>
+    <p><span class='bold '>Characters downed:</span> None, surprisingly.</p>
+    <p><span class='bold '>Character deaths:</span> 0</p>
+    <p><span class='bold '>Character status:</span> These notes are very scrappy, because I was eating and trying to type. We speedrun a lot in the beginning because SHAY WANTS PIRATES. The lizard is lagging tonight. Discord is a butt, turning us into the worst/creepiest acapella band ever. We’ve all become level 6.</p>
+    <p><span class='bold '>Kill count:</span> Belrim, 0. Eldaril, 0. Hieronymous, 0. Oriande, 0. Orthon, 0. Tieron, 0. Shay, 0. Varic, 0.</p>
+    <p><span class='bold '>Heal count:</span> 0</p>
+    <p><span class='bold '>Damage:</span> Belrim – 43. Eldaril – 0. Hieronymous – 0. Oriande – 0. Orthon – 0. Tieron - 0. Shay – 0. Varic – 0.</p>
+    <p>Warp back to the castle</p>
+    <p>We hurry through the bustling city before the demon can burst out of Hieronymous’ chest.</p>
+    <p>We ask the guards at the gate if we can talk to the king, but it turns out he’s out. So Orthon asks, “Is Uxen about?” and we skedaddle off to the temple.</p>
+    <p>At the temple</p>
+    <p>We arrive, and there’s a guy who looks after the temple. Didn’t catch his name. The lizard is lagging, so Shay asks about demons and exorcisms. He says he doesn’t know much about them. Eldaril asks to see the manager. This offends him.</p>
+    <p>The temple guy then asks to see Orthon’s sword.</p>
+    <p>Orthon: Sir, I am a man of faith!</p>
+    <p>The temple dude tells Orthon that the sword is actually the sword of Uxen. This is lot for our boi to process.</p>
+    <p>Temple guy lets us know that he can banish a demon, but he can’t do the other things that are detailed in the book Oriande shows him. We ask if there’s anyone who can help with the rest</p>
+    <p>Next place</p>
+    <p>We skip over to the mage’s quarter, looking for a mage to perform the planar binding. There is one, an elf called Vorland(?), but he scoffs at the very idea of possession. Belrim points out that ya boi’s got demons, and he should probably help Hieronymous. Varic offers our services to sweeten the deal.</p>
+    <p>Orthon casts (Belrim: SMITE!) channel divinity to boost his charisma, to try and help convince the dude to help us with our demon problem. He rolls a 13, which isn’t enough to convince him, but then Oriande remembered he had inspiration from Session 3 or something crazy that he never used, so he blesses Orthon, who then rolls a 21. Vorland is almost convinced, and then the snek decides he doesn’t like men of the cloth. Oriande and Orthon slyly consider using Smite and Guiding Bolt, but they don’t want to piss off their godly bois.</p>
+    <p>Varic asks about Vorland’s love of the unconventional. So he suggests he can show something Vorland has never seen. Something very few have gotten to experience. Something very special. Wink wonk. He runs his hand along his... *ahem* GLAIVE.</p>
+    <p>When this doesn’t completely impress, he then changes into his bear form to really seduce Vorland. However, the mage stays at half mast, asking why he’d need to study that. He then says he can help us but for a price that we aren’t offering. He was basically just offering to summon a demon for us to bargain with it.</p>
+    <p>So Varic says “This man doesn’t know a good deal when he sees it. Let’s go find Greyscythe.” and we do a sassy walk out.</p>
+    <p>Varic: .........So, we don’t know where Greyscythe is, do we?</p>
+    <p>Our options to help Hieronymous are:</p>
+    <ul class=''><li>Talk to the General, trying to get an audience with the King</li>
+    <li>Do the devil deal</li>
+    <li>Go and talk to Eldaril’s mother, which will involve a few days of travel</li></ul>
+    <p>Everyone is in favour of Varic’s vote to go and talk to the General to ask for the audience with the king tomorrow. Everyone is also in favour of telling the King that Vorland is a dick.</p>
+    <p>Back to the castle</p>
+    <p>We ask the guards to let us in to see the Lord General. We are allowed in, and we ask him if we can see Greyscythe. He says we’ll have to wait until tomorrow, but we’re allowed to stay in the castle overnight to keep the city safe.</p>
+    <p>Hieronymous is pacing nervously. He can feel the demon inside him getting nervous as well, because it’s starting to work out it’s been rumbled.</p>
+    <p>We agree to sleep in shifts to keep an eye on Hieronymous. Varic and Belrim are the first watch, then Orthon and Oriande second, and Eldaril and Shay last.</p>
+    <p>On their watch, Oriande rolls a 22 perception, and notices that the guards are watching us as much as they’re keeping an eye out for Hieronymous. He will remember this.</p>
+    <p>Audience with the King</p>
+    <p>We fast forward the morning bit, the King thanks us for our work in Arris. He says the Lord General and the Lord Magus were impressed.</p>
+    <p>Varic: Speaking of the Lord Magus...</p>
+    <p>Greyscythe still isn’t in, so Orthon explains that whilst we were defeating the cult, one of them got Hieronymous possessed by a demon. It’s not a malicious lie, it’s just a convenient way for Orthon to condense the lore into a manageable chunk. The King offers to get in touch with Greyscythe.</p>
+    <p>He reaches into his kingly gown and pulls a chain out of his pocket and tosses it to the group. Belrim tries to jump up and catch it, but he’s too short. Orthon catches it and puts it on.</p>
+    <p>Greyscythe picks up on the third ring and is surprised to find Orthon on the other end, not the King. Orthon quickly explains the situation, and how Vorland was not being helpful in the slightest. Greyscythe seems to know him. He’s trying to think of a way to prove it’s from him, not us, so he puts Orthon on hold.</p>
+    <p>Then Greyscythe comes back, tells us to tell Vorland that he knows what he wants from him, and that he has to help us. If he doesn’t believe us, we’re supposed to give the code words “white hot metal”. </p>
+    <p>In the mage’s quarter again</p>
+    <p>Vorland is teaching when we rock up.</p>
+    <p>Belrim kicks the door in, saying “Class is over, bois.” Shay hurries in after him, apologising for the disruption. Vorland tries to get us to leave, but then Belrim drops that “white hot metal” code and Vorland dismisses the class. We all start fortnite dancing.</p>
+    <p>Vorland says he can help us. We’re going to get backup and then do this thing, dispelling the demon and binding it to an object.</p>
+    <p>We’re going to bind a demon to Belrim’s bagpipes. This can only go well.</p>
+    <p>Back at the guild hall</p>
+    <p>We thought our guild house was the best place for doing this. We return and regroup with Belmont the skelly butler.</p>
+    <p>Belmont gives Shay a letter from Corollas, our original history boi, who wants to join the guild now that he has heard of our guild. Shay says she’ll write back once Hieronymous is feeling better.</p>
+    <p>DM notes that we’ll need more rooms because not everyone was present when we did it. Sims 4/D&D crossover?</p>
+    <p>We get set up. Everyone except for Hieronymous is prepping for combat. Eldaril blesses Shay’s bolts. Orthon and Oriande are prepping their spells. Bagpipes are placed. Everyone’s ready, and people are reaching for their d20s.</p>
+    <p>We hear an audible VWOOM and Hieronymous has to roll a con saving throw. He manages to stay conscious but he’s not sure that’s the best thing. The rest of us hear a slowly growing AAAAAAAAAAAAAAAA<span class='bold '>AAAAAAAAAAAAAAAAAAAA</span> as his skin blisters, because the demon’s breaking out of his body. Orthon and Oriande cast healing words and healing hands to try and</p>
+    <p>soothe his pain but it’s not really doing anything to actually heal him. Eventually the pain overwhelms him and he falls unconscious.</p>
+    <p>His skin calms down as the planar binding begins and continues, and we notice Belrim’s bagpipes are starting to change. The metal is twisting and warping. Finally it starts to make sound, pretty horrifying sounds, and then the priest banishes them.</p>
+    <p>We wait for a while. Hieronymous looks fine now, he’s still unconscious though.</p>
+    <p>The bagpipes return and Belrim dabs. He goes over and toots them.</p>
+    <p>Eldaril has to roll a con saving throw. She fails. As the noise hits her, she’s immediately brought to her knees, vomiting and bringing up blood. She’s taken 43 necrotic damage. She’s still alive, but her hp is reduced to 1 max for 1 hour. Orthon casts lay on hands to help her cure the disease so that she doesn’t freaking die.</p>
+    <p>Turns out, the first time he uses them every day, Belrim’s bagpipes just be like that now.</p>
+    <p>Varic carries Hieronymous to his room. Oriande goes with him to check on him, rolls a sweet 22 on that medicine roll. Hieronymous is going to be ok, he just needs sleep. A long rest, if you will.</p>
+    <p>Then, upon the DM’s instruction, we do a drum roll to reveal.... LEVEL SIX!</p>
+    <p>Hieronymous wakes up in the morning, and he feels relieved. He’s free and liberated. He’s basically leaping around with joy whilst everyone else looks like they’ve got a really bad hangover from their previous experiences.</p>
+    <p>Shay writes back to Corollas saying we’d be glad to have him.</p>
+    <p>Back to Arris</p>
+    <p>We teleport back, and head to the Mariner’s Guild. </p>`
+  },
+  {
+    name: "Session 15/16",
+    date: "17th May 2019/31st May 2019",
+    party: ["Eldaril", "Hieronymous", "Oriande", "Orthon", "Tieron", "Shay", "[Later Varic]"],
+    location: "Mariner’s Guild",
+    author: "Pheobe",
+    content: `<p class="heading">Session overview – A Pirate’s Life for the Shards</p>
+    <p><span class='bold '>Key:</span> (?) means not sure on spelling. xx means number not heard and not written down.</p>
+    <p><span class='bold '>Characters downed:</span> Hieronymous. Oriande, which is a plot twist no-one saw coming.</p>
+    <p><span class='bold '>Character deaths:</span> 0, luckily.</p>
+    <p><span class='bold '>Character status:</span> Belrim has remained behind to study his newfound hellfire bagpipes. Varic and Artiti think it’s wise to remain behind to keep an eye on him, as he can now kill people in one hit.</p>
+    <p><span class='bold '>Kill count:</span> Eldaril, 7. Hieronymous, 1. Oriande, 2. Orthon, 2 (but then he healed them so does it count? (- I counted it anyway)) Tieron, 8. Shay, 4.</p>
+    <p><span class='bold '>Heal count:</span> Oriande, 110 (mass healing word is glorious). Eldaril, 8 (+ the Healing Spirit’s heals, but we didn’t count those, we rolled them individually)</p>
+    <p><span class='bold '>Damage:</span> The Black Shard, 354. Eldaril, 43 (plus all the instant kills whose damage didn’t even count). Hieronymous, 52. Oriande, 56. Orthon, 25. Tieron, 148. Shay, 77.</p>
+    <p>Back in Arris</p>
+    <p>After having exorcised Hieronymous’ demon, the group fast travel back to Arris because it’s time to fight some PIRATES.</p>
+    <p>[Side note: Orthon has summoned a Komodo dragon mount, which is apparently called Tristan and is huge. This will be forgotten in five minutes, and then when called for Tristan will have to climb the Mariner’s Guild in order to reach us, probably terrifying everyone within.]</p>
+    <p>It’s midday, and the inner courtyard of the Mariner’s Guild is quiet. Tieron calls out, ‘Hello?’ and the Voice Of God (aka DM) answers, to which Tieron calls him an idiot. As for the Mariner’s Guild, there’s no response as of yet.</p>
+    <p>Seeing as we can’t find people, Tieron leads the way to the Guildmaster’s chamber. As we walk, he warns us that he and the Guildmaster aren’t friends. As we approach the spiral staircase leading up, Dilaine (? Can’t remember how I spelled it in the last notes) is actually coming down the stairs at the same time. He’s pleased to see us, says we’re just in time. He lets us know that the ship is ready.</p>
+    <p>We follow him, and he takes us into the Mariner’s Guild’s harbour. One ship stands out; it has the outward appearance of a large frigate, but it also has three differences. The ship is on the dock itself. It has no sails. And it is dressed in a black metal plating.</p>
+    <p>When Tieron asks what it is, Dilaine looks pretty smug. It’s apparently an Ironclad, a different model of ship that most likely runs on magic.</p>
+    <p>Someone stands by the ship, and we can see Egridian (?), our buddy who originally sailed us from Marisburg to Bucliffe (this was back in session two or three? The sesh where Oriande joined the party). He’s happy to see us and says that the letter of recommendation that Tieron wrote all those sessions ago did not go to waste.</p>
+    <p>From what Egridian tells us, this ship is basically invincible; the only thing we have to worry about is fire and people boarding us. Judging by how our sessions usually go, at least one of those things is likely to happen.</p>
+    <p>Tieron is asked to christen the ship. After much discussion and various suggestions, including Dilaine is a Dickhead and Magic Boaty McBoatFace, it’s agreed that the ship will be called The Black Shard. Orthon is about to interrupt Tieron’s speech, and Tieron tells him to fuck off. He then rolls a nat 20 as he throws the bottle of wine and it shatters everywhere, some of it clipping Dilaine. He leaves, saying we should seek him out when we’re ready to discuss strategies.</p>
+    <p>Orthon suggests we take the time to have a long rest. The DM has to take a slow sip of water to control the rage. Orthon may actually die this session.</p>
+    <p>We’re left with Egridian. Tieron asks The Voice Of God about the coastline, Orthon wants to know which way is east, all while we’re walking up some stairs. Hieronymous asks who else is going to be on the journey, and it turns out it’s us, Egridian, and ten other officers. Hieronymous asks if there’s enough people to man everything. Egridian says he thinks so, we might have to help out in an emergency. Orthon says it can’t be that hard to learn how to work on a ship. Tieron looks at him pointedly.</p>
+    <p>We arrive at a large dormitory, which has a bed for each of us. Egridian then offers to get Dilaine for us. Orthon then turns into a gossip girl and asks what happened between Tieron and Dilaine.</p>
+    <p>Dilaine asks where we want to start. Orthon says ‘at the start’. Oriande has a mini breakdown. Then, in all seriousness, Dilaine warns us that if we are boarded, we will be greatly outnumbered. So, distance is probably best when it comes to the galleys, but the Admiral’s ship could be attacked from a distance and then boarded by us. The ballista range is 100ft to hit accurately.</p>
+    <p>Tieron will be acting as Captain, Egridian will be piloting. Each ballista should have a gunner and a loader. Reloading a ballista takes an action. There will need to be at least one designated medic. People need to keep an eye on damage to the hull etc and take care of repairs.</p>
+    <p>Oriande will of course be the designated healer and will make sure everyone stays up. Tieron and Eldaril are both magic users, so they will be focusing on dealing ranged damage. Orthon will be focused on ballistas. Hieronymous will be the go-to when it comes to being boarded, as he’s close range. If it comes to a fight, we need to try to limit the movement of the galleys, so that we can focus on The Doom Saint, the Admiral’s ship.</p>
+    <p>Eldaril says she has a foreboding feeling that we’re going to be eaten by a lizard. Orthon asks what a lizard is. Oriande tells him it’s a bigger Tristan. DM regrets ever allowing Orthon’s divine steed.</p>
+    <p>We agree to leave in the morning, as early as possible. We don’t want to do it in complete darkness, but we want to try and get the jump on them. Tieron says we should get as far out as possible to make the most of the light.</p>
+    <p>Dilaine says he’ll make arrangements with the crew and leaves us to chill.</p>
+    <p>Eldaril asks if the beds are made of straw. This sparks a plethora of questions directed at the DM, asking about the individual thread of each blanket, does the mattress have springs, is it memory foam. DM regrets ever meeting us.</p>
+    <p>We have a long rest.</p>
+    <p>Prepping</p>
+    <p>If this goes wrong, we could potentially die for real. So, with that reminder of our mortality, Tieron does some quick teleporting to give all the relics we have to Varic, Artiti and Belrim.</p>
+    <p>For Oriande as the medic, he can roll a dc10 with medicine check to revive one crew member per turn (as an action). It turns out that Oriande’s medicine is +7, so he actually only needs to roll a 3 in order to save crew members. Which is pretty sweet.</p>
+    <p>Tieron Stormlord checks the weather and decides it’s not to his liking, so he causes the wind to shift around us, making the area around us clear and favourable. He sees that Tithis (?) is in the distance and decides that it’s a good idea to keep that in view. The Admiral might be hiding around an island by it, which means if we head towards Tithis he might not spot us, whereas if we go around the other way they might ambush us.</p>
+    <p>Eldaril casts water breathing on the party, Egridian, and a couple of the crew members. Oriande moves to the centre of the ship, so that he can reach as many people with healing as possible. Tieron heads to the front of the ship to get a better view of what will be our battleground. Hieronymous begins loading the ballistas. Shay and Hieronymous are on ballistas. Tieron rolls initiative for the ship, gets a 7. That doesn’t bode well for us.</p>
+    <p>We keep sailing towards Tithis.</p>
+    <p>Eldaril decides to scout ahead when Tristan fails to see anything and sees that there are four enemy ships lying in wait. They’re currently anchored in the port, but they’re not anchored. They’d be able to respond quite quickly. The galleys are manned by a lot of rowers, possibly up to 100. Luckily, rowers are not likely to fight us, but there are about 20 armed members of crew. There are 20 crew members on the Doom Saint.</p>
+    <p>There’s not much we can do to sneak up on them here. Tieron suggests we take out the overseers, which would free the rowers (who are potentially slaves), who will then not fight us. That would put the galleys out of action. That would involve Hieronymous, Shay and maybe Eldaril sneaking onto the ships to snipe the overseers, and they would be 4 miles away from the ship, so Oriande, Tieron and Orthon wouldn’t be able to offer much support.</p>
+    <p>Instead, we’re going for it. Time for ballistas and magic.</p>
+    <p>YO HO MOTHERFUCKERS</p>
+    <p>The ships spot us as we charge. One of the galleys manages to get ahead of the others, which could be good for us.</p>
+    <p>The Doom Saint moves forwards but is well out of range. The purple galley is next, turning to port and moving 60ft. The green galley is the one in the lead, and charges full speed ahead. Then it’s The Black Shard’s turn. We don’t want to be surrounded, so we turn to starboard, keeping our left side (with loaded ballistas) aimed at the purple galley so that it can’t catch us unawares.</p>
+    <p>Orthon readies an action to shoot whenever something gets into range. It turns out that the green galley is actually within range, so we’re taking a potshot. It does hit, and we deal 21 piercing damage.</p>
+    <p>The orange galley moves towards us and moves towards The Doom Saint.</p>
+    <p>The Doom Saint’s turn, and it is an agile ship with a lot of movement. We may be in trouble. Luckily, we’re still out of range at the moment.</p>
+    <p>The purple galley moves again, but it’s still out of our range.</p>
+    <p>The Black Shard needs to manoeuvre before the galleys trap us in, as we don’t want to be boarded. Tieron takes charge, and we fire again at the green galley. He yells at Orthon to aim for the stern, and Shay helps him. The attack deals 21 piercing and 8 fire damage. Chunks of the ship have fallen off, and although it doesn’t look like there’s any fires starting, there is a lot of damage.</p>
+    <p>The green galley fires back, dealing 33 damage.</p>
+    <p>Hieronymous needs to reload his ballista, with the help of one of the crewman. It’s done, so he tries to fire (with disadvantage). It hits, dealing 20 piercing damage and 10 fire damage.</p>
+    <p>Eldaril takes out her longbow, aiming at the crew of the green galley, and snipes an officer, dealing 10 damage.</p>
+    <p>The Black Shard is now in The Doom Saint’s range. It launches a fireball at us, and deals 40 damage. A fire breaks out on The Black Shard, understandably.</p>
+    <p>As it’s The Black Shard’s turn, Tieron orders the ship to continue straight, hoping to fire at the green galley and maybe ram the purple galley later on. One of the crew tries to put out the fire, but fails to do so. A second crewman hits the centre of the green galley, and the mast buckles and collapses on the ship. It’s very obviously sinking now.</p>
+    <p>Orthon takes a shot at The Doom Saint. Shay gives advantage by praising his shot from last time. It just misses. Hieronymous tries to put out the fire that’s still burning, but fails. The crewman he was partnered with tries to take a shot, but misses. Eldaril tries to snipe the Admiral, but hits the ocean.</p>
+    <p>The Doom Saint, in a surprising turn of events, turns so that it’s out of range, and then launches another fireball at us. It deals 17 damage and sets another fire.</p>
+    <p>Each fire takes 10% of the ship’s health, so we’re in serious danger now.</p>
+    <p>The Black Shard is in trouble, so Tieron shouts at Hieronymous to put the fire out, giving him advantage. He then runs to put out the other fire. With his newfound bucket knowledge, he puts out the fire. Tieron, however, forgets that he’s a Mariner and pours the water on himself instead of the fire.</p>
+    <p>Eldaril takes charge of another ballista, and deals 39 piercing damage to the purple galley, and 4 fire damage.</p>
+    <p>Shay carries a bolt bigger than her, egging Orthon on to make a good shot. He deals 30 piercing damage and 9 fire damage.</p>
+    <p>The purple galley moves in towards us.</p>
+    <p>The Doom Saint shoots yet another fireball. We get hammered, taking another 35 damage. It destroys part of our ship. The fire Tieron failed to put out takes off another 10% of the ship’s health.</p>
+    <p>Hieronymous and Tieron are back on fire duty. Tieron once again fails to put out the fire. Hieronymous tries too, but he essentially jumped into the fire.</p>
+    <p>Eldaril summons a tidal wave to strike the purple galley, dealing 11 bludgeoning damage. The crewmen on board are knocked flat, and the ship slowed.</p>
+    <p>Shay tries to put the fire out, but didn’t manage it, so Orthon charges down the ship, his boots thumping over the deck, and body slams the flames on the rear of the ship. It works, putting the fire out immediately.</p>
+    <p>Now that it’s within range, Oriande casts Guiding Bolt on the purple galley, dealing 22 damage. A beam of light pierces the hull, leaving behind a mystical white light for the crew to aim for. One of the crewman does hit the same area, but it doesn’t sink.</p>
+    <p>The purple galley then tries to ram us, but Egridian manages to angle the ship so that the iron cladding essentially disintegrates the front of the purple galley. It pushes our ship in the air slightly, because the purple galley has been crunched underneath us, but it is now firmly dead, whilst we survived the hit.</p>
+    <p>The Black Shard continues, charging towards The Doom Saint. Tieron remembers he can magically manipulate water, and chucks his bucket to one side, throwing water on the fire. It’s out, although the deck is very charred.</p>
+    <p>Hieronymous mans one of the ballistas at the front of the ship and deals 22 piercing damage and 2 fire damage to The Doom Saint.</p>
+    <p>Eldaril swan dives off the ship, transforming into her Giant Octopus form in mid-air and somehow gracefully landing in the water. She then dashes 120ft towards the orange galley.</p>
+    <p>Orthon fires at The Doom Saint. He has his buddy Shay giving him advantage, and he deals 30 piercing damage and 6 fire damage. The crewman join him in firing at The Doom Saint, dealing 28 damage to the broad side of the ship.</p>
+    <p>Orange galley moves, and they haven’t seen Octopus Eldaril dive into the water. So they end up right next to her.</p>
+    <p>The Doom Saint corrects its course, and now it’s well within range. It is now able to hit the deck with its fireballs. It slams into the deck, dealing a lot of damage to the ship, and Tieron is now a bit crispy, but still alive. Hieronymous manages to escape death by the skin of his teeth.</p>
+    <p>Tieron orders the ship to continue charging. Boarding is our best bet now.</p>
+    <p>Eldaril, as a separate entity, uses her octopus tentacles to sucker her way up the side of the ship. She’s now on the deck. The crewmembers are not expecting this nightmare fuel. Eldaril uses her tentacle attack (with its 15ft reach) to strike anyone within reach, crushing 2 of the officers, tossing 2 more into the air, and dealing 5 damage to the ship. The crew are clearly horrified, and if any survive they will be scarred for life.</p>
+    <p>Oriande casts Healing Word on Tieron, giving him 12 health back.</p>
+    <p>Hieronymous casts Wholeness Of Body and brings himself back to full health. Without the demon weighing him down, our boy has got his full monk mojo back.</p>
+    <p>Tieron is now pissed because he took damage, so he moves to stand at the very front of the ship. He casts Lightning Bolt on The Doom Saint, and it rips through 3 or 4 of the crew on the deck. It deals 17 damage and sets various fires.</p>
+    <p>Orthon (with Shay giving advantage), shoots again and rolls a nat 20, which deals 41 damage and 18 fire damage, starting a third fire on The Doom Saint.</p>
+    <p>Oriande manages to revive one of the crew members.</p>
+    <p>The crew shout to Tieron, ‘Captain, which one do we hit?’</p>
+    <p>He answers, ‘THE BIG ONE.’</p>
+    <p>The Black Shard deals 21 damage to The Doom Saint.</p>
+    <p>The orange galley, despite having Eldaril on board, rams The Black Shard. We take 75 damage as the orange galley manages to finally pierce the hull of the ship. We might be in trouble lads.</p>
+    <p>The Doom Saint chucks a fireball at The Black Shard, and it doesn’t hit Tieron but it does start a fire. It then gets close to do a sail-by-boarding.</p>
+    <p>As The Doom Saint sweeps past and crew board us, we see by the helm a woman with coal black skin, standing above the corpse of a man, readying another fireball in her hand. We’re not sure what to make of that, but we notice this as they pass.</p>
+    <p>[We looked at the time and all collectively went ‘oh no’ so we brought the session to an end here.]</p>
+    <p class="heading"><span class=''>Session Cont. on 31st May </span></p>
+    <p>WE’RE BEING BOARDED</p>
+    <p>Due to the collision, the mage that we were prepping to fight gets hit by a stray bolt from our ship, which slams straight into her chest and yeets her off of The Doom Saint. Well that was easy.</p>
+    <p>Eldaril is up first, still in her octopus form. She continues to harass and kill off the crew members of the orange galley, which is still sinking.</p>
+    <p>Little did we realise, the Admiral was actually climbing up the side of our ship. He has sort of haphazard armour, but he does have a big fuck off sword. He takes a swing at two of the nearest mariners, cutting them down with ease. He lets out an angry snarl/roar, which tells us he’s pretty pissed about his ship.</p>
+    <p>Tieron’s first words of the session are ‘Sacrifices must be made.’ So it’s going to be one of those nights. He carefully aims a Lightning Bolt at the Admiral, which will also hit at least three of the boarding pirates. It narrowly misses one of our mariners. Everyone who fails the save take 35 damage, and those that save take 18 (i.e the Admiral).</p>
+    <p>Oriande casts Shield of Faith on Tieron, giving him +2 to his AC, and then casts Sacred Flame on one of the remaining green pirates. He deals 15 damage and kills him. His player is pleased, but Oriande is regretful, I swear.</p>
+    <p>The group of pirates at the rear try to swarm Orthon and Shay. Shay takes 4 damage, but their puny pirate weapons are no match for Orthon’s superior AC. When they realise they’re not hitting anything, one of them tries to grapple Orthon. He manages to throw the pirate off.</p>
+    <p>Hieronymous decides he has enough movement speed to fight and put out the fire. He casually walks over to the remaining green pirate, bids him good evening, and then punches him, breaking his nose. The second punch is the one that knocks him out. He collapses, and Hieronymous returns his attention to the fire on the hull. He then readies the bucket.</p>
+    <p>The mariners look to Tieron for orders, and he commands them to focus on getting The Black Shard away from The Doom Saint. Two of them shoot the last bolts at The Doom Saint, which starts a fire within the belly of the ship. It hasn’t sunk yet, but without someone at the helm, it’s now drifting. The last one tries to put out the fire on our deck, with Hieronymous’ help, but they can’t quite manage it.</p>
+    <p>The last of the pirates from the ship Eldaril is on board our ship. There are now 5 orange pirates and 5 blue pirates, the blue being the newcomers who have boarded. They start duelling with mariners, and one of the mariners die.</p>
+    <p>Even more pirates board the ship. This is becoming a problem. The red pirates try to swarm Tieron and Hieronymous, and deal 4 damage to Tieron and 3 to Hieronymous.</p>
+    <p>Shay shoots the pirate attacking her, dealing 19 damage and killing him. She then shoots at the pirate in front of Orthon, dealing 8 damage and nearly killing him.</p>
+    <p>Orthon’s up, he’s gonna smack some people. But the dice gods are not with him, and he rolls a 2, therefore missing the pirates. That’s his turn. Wait no, he stabilises the guy Shay just shot.</p>
+    <p>Eldaril suckers off of the ship, leaping overboard, and manages to get onto the deck of The Black Shard. Her plan seems to be to eat more sailors, which then brings up the question of “Is that cannibalism tho?” It’s agreed that it’s generally frowned upon for elves to eat humans.</p>
+    <p>The Admiral charges forwards, swinging at our resident soft boi Oriande, who takes 36 damage and stays on his feet somehow.</p>
+    <p>Tieron is up next, and uses two Chromatic Orbs 16 damage to the Admiral, and 18 to the pirate. Three others take 3 lightning damage.</p>
+    <p>Oriande disengages from the Admiral to put some distance between him and the person who can probably kill him in one hit and scrambles up the deck all bloodied. He then casts Mass Healing Word, giving 12 health to himself, Tieron, Hieronymous and Eldaril.</p>
+    <p>Shay and Orthon are still swarmed, and Orthon is now grappled.</p>
+    <p>It’s Hieronymous’ turn. He acrobatically manages to get past the pirate bois that are trying to pin him in and gets as close to the Admiral as possible. He starts swanging. His first attack misses, but his second hits, and he tries for a stunning strike, and although it doesn’t stun him it deals 7 damage. He then settles into his Patient Defence, ready to deflect what comes his way.</p>
+    <p>The mariner Hieronymous left behind manages to put out the fire, but is then attacked by the pirates.</p>
+    <p>Hieronymous takes 3 damage from a blue pirate, as does Tieron. A red pirate takes a swing at Hieronymous too, dealing 4 damage.</p>
+    <p>Shay is next and deals 21 damage to one of the orange pirate. She then deals 9 damage to the orange pirate who was already wounded, and he dies.</p>
+    <p>Orthon is being more successful with stabilising our enemies than fighting them. But surprisingly, his dice allow him to use Smite on one of the orange pirates, dealing 13 damage and knocking him out. He deals 12 damage, which means that all of the orange pirates are now completely out.</p>
+    <p>Eldaril’s turn. She yells to the mariner at the top of the deck, ‘Hold on!’ and casts Tidal Wave. The mariner manages to save, but the red pirates don’t save. It deals 22 damage to the red pirates, and knocks them all prone. Our brave mariner manages to cling to the ballista. Give that man a promotion.</p>
+    <p>The Admiral looks Hieronymous dead in the eyes, and roars. He regains some hp, which doesn’t bode well for the rest of us. Hieronymous’s twink bod is about to get rekd. He takes 42 damage, and drops.</p>
+    <p>Tieron risks an attack of opportunity, taking 7 slashing damage, and uses two Chromatic Orbs again to attack the blue pirate and the Admiral. The blue pirate manages to dodge, but the Admiral takes 34 damage.</p>
+    <p>Oriande casts Mass Healing Word on himself, Tieron, Eldaril, Hieronymous and the mariner, who we have now lovingly dubbed Steve. It gives them all 10hp. He then casts Word of Radiance on the red pirate, the blue pirate and the Admiral, who are all surrounding Hieronymous. He deals 9 damage to the red pirate, killing him. The blue pirate and the Admiral take 5 damage each.</p>
+    <p>Hieronymous manages to get one hit on the Admiral, and then bravely ran away to hide behind Eldaril.</p>
+    <p>The mariner group in the middle of the ship continue to brawl with the blue pirates, and none of them go down.</p>
+    <p>Shay dashes up the ship, taking a shot at the Admiral, but unfortunately it doesn’t hit.</p>
+    <p>Orthon rushes to the middle of the ship, and casts Hold Person on the Admiral. Unfortunately, the Admiral saves, so his spell doesn’t work.</p>
+    <p>Eldaril charges at the blue pirate, using the rarely-ever-seen Shove action, and shunts him off of the side of the boat. He disappears into the water. She then casts Healing Spirit, which takes the form of a watery octopus thing. It hugs Hieronymous, restoring 8hp to him, which has probably given him PTSD again in the process.</p>
+    <p>We hear a heavy BOOM BOOM BOOM of the Admiral’s boots as he charges up the stairs, and he roars at Hieronymous ‘GET BACK HERE, FILTH.’ But seeing that Hieronymous is too far away, he instead turns to Oriande. He deals 35 damage to Oriande who, looking both frightened and a little surprised because this has never happened to him before, falls into a dead faint. He’s unconscious and bleeding out.</p>
+    <p>Tieron steps into the Healing Spirit, and the octopus caresses his face. Tieron is feeling a little molested. He tries to strike the Admiral, but only manages to do 3 damage.</p>
+    <p>Hieronymous charges when he sees Oriande go down and goes full monk master on him when he rolls a nat 20. He deals 5 damage, 8 damage, and manages to hit him with a Stunning Strike. The Admiral is stunned, he can’t do any dex saves, and everyone has advantage on him. Come through with those ki points, Hieronymous.</p>
+    <p>Oriande has to roll a death saving throw for the first time in his life. He gets a 6. Yikes lads, we could be in trouble.</p>
+    <p>Now that he fails every save, Tieron can cast Lightning Bolt, dealing 35 damage to him. The Admiral gets electrocuted and has taken a pretty heavy blow. He then teleports away to try and get some distance.</p>
+    <p>Shay shoots at the Admiral, and he’s looking pretty bloody now.</p>
+    <p>Orthon casts Sleep, and puts a blue pirate and the Admiral to sleep. He then rushes over to the blue pirates still grappling with our mariners.</p>
+    <p>Eldaril moves her Healing Spirit over to where Hieronymous and Oriande are. She deals 10 damage to one of the blue pirates (who isn’t sleeping) and kills him.</p>
+    <p>The Admiral is still asleep, but he gets 3 points of healing because of the Healing Spirit being too close.</p>
+    <p>Tieron got his turn early, so we’ll skip that for now.</p>
+    <p>Oriande is healed, so he’s now stable and no longer in danger of dying.</p>
+    <p>Hieronymous takes advantage of the Admiral being asleep and ties him up. We’ve got a prisoner now.</p>
+    <p>The mariners get the last kill of the battle, defeating the two blue pirates remaining.</p>
+    <p>We hear a CRACK as The Doom Saint’s mast snaps and collapses into it. In all the chaos, we totally forgot we were here for an artefact that will stop the apocalypse, and it turns out it’s on The Doom Saint which is currently sinking quite fast.</p>
+    <p>Orthon ties a rope around his waist and dives in, utilising the water breathing that Eldaril cast on us at the start of last sesh. Tieron follows, because his dark vision is an asset. He uses Misty Step to rush into the sinking ship, manages to get into the hull, and gets into a chest. The contents spill out into the water around him, but he does see some parchments immediately “soggify” (DM’s words). Tieron sees that a black glass dioptre is also there, so he crams it back into the chest, and Misty Steps out of the water.</p>
+    <p>Tieron and Orthon manage to get out of the water.</p>
+    <p>Whilst they’re climbing back onto deck, the blue pirate is waking up. Shay and Eldaril both shoot at him at the same time, and Shay deals 17 damage. Before he even knows what happens, a crossbow bolt just goes sideways through his head.</p>
+    <p>The Admiral is awake now. Eldaril has her arrow still notched in her bow, so she presses it against the Admiral’s head, and warns him that ‘If you do anything stupid, you’ll end up the same as your</p>
+    <p>friends.’ He isn’t intimidated, but Eldaril shoots him in the knee to make a point. He goes unconscious again.</p>
+    <p>Tieron and Orthon get back, and Tieron puts the chest on the deck. He uses Shape Water to dry everything in the chest, but he can’t save the parchment. There’s 330 silver in it, and 400 copper. Oriande comes around, groaning and badly injured, but very much alive. He calls for Shay to come to him, because he can’t move much yet, and asks her to find a cool eyepatch for Varic. She does find one, which makes him happy, and he goes off to heal himself.</p>
+    <p>Shay then nudges the Admiral’s sword, and asks if it’s magical. Tieron tells her it’s a Gambler’s Blade, because it’s got dice all over it. Oriande tells him that it definitely felt magical.</p>
+    <p>Orthon suddenly remembers Tristan, and Tieron points at a pile of ash. ‘That’s Tristan.’</p>
+    <p>We decide to take our prisoners back to the court, so that they can deal with them. Shay looks around for some good pirate boots, but she can’t find any. Orthon and Eldaril get into a spat about whether to save people or not. Tieron joins in, which then devolves into an argument between a city half elf and a druid elf. It breaks up when Tieron examines the dioptre.</p>
+    <p>MEANWHILE</p>
+    <p>Back in the fish and chip shop, Varic is hanging out with “that one nerdy guard”. He hears a muffled ‘Hello? Hello?’</p>
+    <p>Varic is surprised, pulling out the tiara that he’s been looking after. ‘Hello? This is Varic Thumkallah, Destroyer of Monsters and Eater of Fish.’</p>
+    <p>It’s Princess Oliffe, and she sounds sad. She says the ritual is soon, and has a dire message for our group. The dioptre is enchanted, apparently, and can take us directly to places that are important to the sister that made it. She also says that the King’s Crown isn’t the catalyst of the ritual, but it isn’t; it’s actually the King himself, which is why he betrays them in the beginning. Taking part in the ritual means he will essentially never have existed, and as a prideful man, he doesn’t want that to happen.</p>
+    <p>Varic asks whether the same thing will happen to the Princes/Princesses, but she says that it won’t, it’ll just be like he vanished from their memories. The way the King will circumvent the ritual is by killing his children. She warns us that he is the Dragon King, so we should watch out for a dragon.</p>
+    <p>Varic confirms that the relic can take us directly to the end game boss, which sets up the final arc of the campaign.</p>
+    <p>There’s a pause, which is a little heavy, and then she bids him farewell. It’s the last we’ll ever hear from Princess Oliffe.</p>
+    <p>Back on the ship</p>
+    <p>The Black Shard limps into the harbour, and we notice that armed men in blue and silver are on the docks. Egridian is exhausted after piloting the ship for such a long time, but he’s fine, he just needs sleep.</p>
+    <p>Two guards are at the bottom of the ramp, so we bring all the prisoners off the ship with us. Three mariners remain. Tieron pays them all for their service, 30 gold each, and they’re very grateful. The</p>
+    <p>two guards step forwards, and one of them asks for the Guildmaster of The Shards. Shay steps forwards, and they say they’ll escort us back to the Archmage.</p>
+    <p>Tieron is nice to Orthon when Orthon helps him carry the Admiral’s greatsword, which shows that Tieron has taken some damage.</p>
+    <p>Varic is at the Mariner’s Guild waiting for us, and we meet him in the corridor. Shay gives him the eyepatch, and Orthon and Tieron present him with the greatsword. Varic tells us that Artiti and Belrim have been investigating Belrim’s bagpipes, and Varic chose to come here to see if our hunt was successful.</p>
+    <p>He recounts everything the Princess told him.</p>
+    <p>We then enter a large dining room and gather around a table that seats 16. At the rightmost head of the table sits Edwin Greyscythe, the Archmage. We sort of tiredly flop into the seats. He gives Shay a heavy pouch, which contains the ring we were promised. Shay says if there’s anything he needs in the future, he shouldn’t hesitate to call on us. He immediately says he has a favour to ask us.</p>
+    <p>Greyscythe’s request</p>
+    <p>He tells us that when he was younger, he was visited by a stranger who would basically give him unlimited power. He was given a choice; either go to Verenis(?), an ancient city from the Isle of Parnassium(?), and learn to wield incredible power, or lose all knowledge of this conversation.</p>
+    <p>He studied there for decades, before later returning to our land. Some of his order, including one of his apprentices, turned traitor and performed crazy experiments and even murdered people for the sake of their research. All the people of Parnassium have taken an oath to not hurt any of their own, so Greyscythe can’t hurt anyone, but we can.</p>
+    <p>He trusts us to be able to stop them and says we should talk about how to deal with them.</p>
+    <p>Tieron and Shay point out that we have a more pressing end of the world issue that we might need to deal with first, but Tieron also acknowledges that it should probably be Varic’s choice, as he is the most affected by this. Oriande agrees, saying that he will stand by Varic’s decision. The others agree.</p>
+    <p>Varic mentions that if they’re on Parnassium, then we could do both; the last relic is also there, so we could destroy the rogue order and grab the relic.</p>
+    <p>Greyscythe tells us that Velt (his ex-apprentice) is a little bit psycho, and that he sees the massacre of Varic’s clan as “academic”. He learned how to draw his power from a being rather than the usual way, so he no longer needed Greyscythe’s tutelage. He doesn’t know exactly how many there are following Velt, but he guesses at most there’s probably 10 or 20.</p>
+    <p>Varic says he will hunt Velt, and the rest of us will of course go along. Greyscythe says he can teleport us to Parnassium, specifically Verenis, but once we are within the city he won’t be able to guide us, because he’s too noticeable. If anything goes too wrong, he might be able to do something about it, but we need to get out of the city as quickly as possible.</p>
+    <p>He tells us that he can help us find white robes to disguise us, so that we won’t stand out too much.</p>
+    <p>We ask if taking the brooch (the last relic) from the tower will damage the barrier or the island. Greyscythe hopes not, and doesn’t know if the world is ready for the technology they have on</p>
+    <p>Parnassium. The barrier is there to keep a distance between the two worlds until one is ready for the other.</p>
+    <p>We retire for the evening, have something to eat, and Varic explains more detail about his backstory. Turns out that dickhead Velt is close to the tower we need anyway, so we can do both. In order to earn that warrior tattoos, the goliaths have to endure hardship, so Varic and his older brother went to hunt a bear. They were having their celebration feast, which is when Velt and his band of pricks rocked up and started killing people. Most of the clan were killed, but some were taken and kept in cages. Two of the robed bastards were killed. There were maybe 10 goliaths there along with Varic and his brother, who were also taken out. He was fed a potion that felt like it was going to kill him, but he survived, and transformed for the first time into his hybrid form. They tried using some of his blood in a ritual, but his brother had also transformed and was fighting. Varic used the confusion to escape, and after running through a portal he ended up in the forest near Marisburg, where we later met him. So, these mages can handle barbarians with no issue, especially as Varic’s dad was an absolute unit and he was killed.</p>`
+  },
+  {
+    name: "Session 17",
+    date: "14th June 2019",
+    party: ["TBC"],
+    location: "Mariner’s Guild",
+    author: "Pheobe",
     content: `<p class="heading">Not yet started</p>`
   }
 
