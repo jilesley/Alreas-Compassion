@@ -315,7 +315,7 @@ const quest = [
     date: "30th December 2018",
     party: ["Artiti Baumk", "Eldaril Bulantook", "Hieronymus Botch", "Oriande Mallorn", "Orthon Anatole", "Shay Coulltree", "Varic"],
     location: "Arena in Hotsapech",
-    author: "The Note Scholar Pheobe",
+    author: "The Note Scholar Phoebe",
     content: `<p class="heading">Session Overview</p>
     <p><span class='bold '>Key:</span> (?) means not sure on spelling. xx means number not heard and not written down.</p>
     <p><span class='bold '>Characters downed:</span> Artiti, 1 time technically. Eldaril, 2 times. Hieronymous, 3 times. Orthon, 6 times. Varic, 3 times.</p>
@@ -498,7 +498,7 @@ const quest = [
     date: "25th January 2019",
     party: ["Belrim Bennar", "Eldaril Bulantook", "Hieronymus Botch", "Oriande Mallorn", "Orthon Anatole", "Shay Coulltree", "Tieron Malathrar", "Varic"],
     location: "Arena in Hotsapech",
-    author: "The Note Scholar Pheobe",
+    author: "The Note Scholar Phoebe",
     content: `<p class="heading"><span class=''>Session overview</span></p>
     <p><span class='bold '>Key:</span> (?) means not sure on spelling. xx means number not heard and not written down.</p>
     <p><span class='bold '>Characters downed:</span> 0</p>
@@ -582,7 +582,7 @@ const quest = [
     date: "15th February 2019",
     party: ["Artiti Baumk", "Eldaril Bulantook", "Hieronymus Botch", "Oriande Mallorn", "Orthon Anatole", "Shay Coulltree", "Tieron Malathrar", "Varic"],
     location: "The Kings palace",
-    author: "The Note Scholar Pheobe",
+    author: "The Note Scholar Phoebe",
     content: `<p class="heading"><span class=''>Session overview (aka the reveal of Hieronymous’ kinks)</span></p>
     <p><span class='bold '>Key:</span> (?) means not sure on spelling. xx means number not heard and not written down.</p>
     <p><span class='bold '>Characters downed:</span> 0 (not even Orthon. That’s character development)</p>
@@ -693,7 +693,7 @@ const quest = [
     date: "8th March 2019",
     party: ["Belrim Bennar", "Oriande Mallorn", "Orthon Anatole", "Shay Coulltree", "Tieron Malathrar", "Varic"],
     location: "A cave in Arris",
-    author: "The Note Scholar Pheobe",
+    author: "The Note Scholar Phoebe",
     content: `<p class="heading"><span class=''>Session overview</span></p>
     <p><span class='bold '>Key:</span> (?) means not sure on spelling. xx means number not heard and not written down.</p>
     <p><span class='bold '>Characters downed:</span> Belrim (2) Orthon (1) Varic (1)</p>
@@ -788,7 +788,7 @@ const quest = [
     date: "22nd March 2019",
     party: ["Eldaril Bulantook", "Hieronymous Botch", "Oriande Mallorn", "Orthon Anatole", "Tieron Malathrar", "Varic"],
     location: "Darkness... then on a beach",
-    author: "The Note Scholar Pheobe",
+    author: "The Note Scholar Phoebe",
     content: `<p class="heading"><span class=''>Session overview</span></p>
     <p><span class='bold '>Key:</span> (?) means not sure of spelling. xx means numbers not heard and not written down</p>
     <p><span class='bold '>Characters downed:</span> 0</p>
@@ -882,7 +882,7 @@ const quest = [
     date: "5th April 2019",
     party: ["Belrim", "Eldaril", "Hieronymous", "Oriande", "Orthon", "Tieron", "Shay", "Varic"],
     location: "Warp node in the capital",
-    author: "Pheobe",
+    author: "Phoebe",
     content: `<p class="heading"><span class=''>Session Overview (aka “Can we have an exorcism?” “No, you can’t afford it.” “Understandable, have a nice day.”)</span></p>
     <p><span class='bold '>Key:</span> (?) means not sure on spelling. xx means number not heard and not written down.</p>
     <p><span class='bold '>Characters downed:</span> None, surprisingly.</p>
@@ -953,7 +953,7 @@ const quest = [
     date: "17th May 2019/31st May 2019",
     party: ["Eldaril", "Hieronymous", "Oriande", "Orthon", "Tieron", "Shay", "[Later Varic]"],
     location: "Mariner’s Guild",
-    author: "Pheobe",
+    author: "Phoebe",
     content: `<p class="heading">Session overview – A Pirate’s Life for the Shards</p>
     <p><span class='bold '>Key:</span> (?) means not sure on spelling. xx means number not heard and not written down.</p>
     <p><span class='bold '>Characters downed:</span> Hieronymous. Oriande, which is a plot twist no-one saw coming.</p>
@@ -1127,7 +1127,7 @@ const quest = [
     date: "14th June 2019",
     party: ["TBC"],
     location: "Mariner’s Guild",
-    author: "Pheobe",
+    author: "Phoebe",
     content: `<p class="heading">Not yet started</p>`
   }
 
